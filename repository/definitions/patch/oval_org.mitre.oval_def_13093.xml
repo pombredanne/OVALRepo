@@ -1,11 +1,11 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13093" version="6">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13093" version="20">
   <metadata>
     <title>USN-964-2 -- likewise-open regression</title>
     <affected family="unix">
       <platform>Ubuntu 10.04</platform>
       <product>likewise-open</product>
     </affected>
-    <reference ref_id="USN-964-2" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-August/001133.html" source="VENDOR" />
+    <reference ref_id="USN-964-2" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-August/001148.html" source="VENDOR" />
     <description>USN-964-1 fixed vulnerabilities in Likewise Open. The upstream fixes were incomplete, which caused problems running certain services. This update fixes the problem. We apologize for the inconvenience. Original advisory details: Matt Weatherford discovered that Likewise Open did not correctly check password expiration for the local-provider account. A local attacker could exploit this to log into a system they would otherwise not have access to.</description>
     <oval_repository>
       <dates>

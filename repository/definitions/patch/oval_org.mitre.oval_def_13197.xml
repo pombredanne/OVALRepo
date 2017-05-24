@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13197" version="6">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13197" version="20">
   <metadata>
     <title>USN-872-1 -- kdebase-runtime vulnerabilities</title>
     <affected family="unix">
@@ -7,7 +7,7 @@
       <platform>Ubuntu 9.04</platform>
       <product>kdebase-runtime</product>
     </affected>
-    <reference ref_id="USN-872-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-December/001014.html" source="VENDOR" />
+    <reference ref_id="USN-872-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-December/001029.html" source="VENDOR" />
     <description>It was discovered that the KIO subsystem of KDE did not properly perform input validation when processing help:// URIs. If a user or KIO application processed a crafted help:// URI, an attacker could trigger JavaScript execution or access files via directory traversal.</description>
     <oval_repository>
       <dates>

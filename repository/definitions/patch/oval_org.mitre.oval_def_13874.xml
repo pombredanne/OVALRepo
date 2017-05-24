@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13874" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13874" version="22">
   <metadata>
     <title>USN-755-1 -- krb5 vulnerabilities</title>
     <affected family="unix">
@@ -8,7 +8,7 @@
       <platform>Ubuntu 8.10</platform>
       <product>krb5</product>
     </affected>
-    <reference ref_id="USN-755-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-April/000881.html" source="VENDOR" />
+    <reference ref_id="USN-755-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-April/000887.html" source="VENDOR" />
     <reference ref_id="CVE-2009-0844" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-0844" source="CVE" />
     <reference ref_id="CVE-2009-0845" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-0845" source="CVE" />
     <reference ref_id="CVE-2009-0846" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-0846" source="CVE" />

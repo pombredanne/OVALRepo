@@ -1,11 +1,11 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13026" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13026" version="22">
   <metadata>
     <title>USN-1071-1 -- linux-source-2.6.15 vulnerabilities</title>
     <affected family="unix">
       <platform>Ubuntu 6.06</platform>
       <product>linux-source-2.6.15</product>
     </affected>
-    <reference ref_id="USN-1071-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-February/001255.html" source="VENDOR" />
+    <reference ref_id="USN-1071-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-February/001270.html" source="VENDOR" />
     <reference ref_id="CVE-2010-3086" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-3086" source="CVE" />
     <reference ref_id="CVE-2010-3859" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-3859" source="CVE" />
     <reference ref_id="CVE-2010-3873" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-3873" source="CVE" />

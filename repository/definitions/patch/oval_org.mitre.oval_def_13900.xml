@@ -1,11 +1,11 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13900" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13900" version="22">
   <metadata>
     <title>USN-1159-1 -- linux-mvl-dove vulnerabilities</title>
     <affected family="unix">
       <platform>Ubuntu 10.10</platform>
       <product>linux-mvl-dove</product>
     </affected>
-    <reference ref_id="USN-1159-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-July/001372.html" source="VENDOR" />
+    <reference ref_id="USN-1159-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-July/001387.html" source="VENDOR" />
     <reference ref_id="CVE-2010-4243" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-4243" source="CVE" />
     <reference ref_id="CVE-2010-4263" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-4263" source="CVE" />
     <reference ref_id="CVE-2010-4342" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-4342" source="CVE" />

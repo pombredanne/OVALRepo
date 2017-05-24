@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15326" version="7">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15326" version="21">
   <metadata>
     <title>USN-1373-1 -- OpenJDK 6 vulnerabilities</title>
     <affected family="unix">
@@ -8,7 +8,7 @@
       <platform>Ubuntu 10.10</platform>
       <product>OpenJDK</product>
     </affected>
-    <reference ref_id="USN-1373-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2012-February/001602.html" source="VENDOR" />
+    <reference ref_id="USN-1373-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2012-February/001617.html" source="VENDOR" />
     <reference ref_id="CVE-2011-5035" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-5035" source="CVE" />
     <reference ref_id="CVE-2011-3563" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-3563" source="CVE" />
     <reference ref_id="CVE-2012-0497" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0497" source="CVE" />

@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13131" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13131" version="22">
   <metadata>
     <title>USN-744-1 -- lcms vulnerabilities</title>
     <affected family="unix">
@@ -8,7 +8,7 @@
       <platform>Ubuntu 8.10</platform>
       <product>lcms</product>
     </affected>
-    <reference ref_id="USN-744-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-March/000869.html" source="VENDOR" />
+    <reference ref_id="USN-744-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-March/000875.html" source="VENDOR" />
     <reference ref_id="CVE-2009-0581" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-0581" source="CVE" />
     <reference ref_id="CVE-2009-0723" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-0723" source="CVE" />
     <reference ref_id="CVE-2009-0733" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-0733" source="CVE" />

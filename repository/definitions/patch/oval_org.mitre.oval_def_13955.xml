@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13955" version="7">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13955" version="22">
   <metadata>
     <title>USN-1126-2 -- php5 regressions</title>
     <affected family="unix">
@@ -9,7 +9,7 @@
       <platform>Ubuntu 10.04</platform>
       <product>php</product>
     </affected>
-    <reference ref_id="USN-1126-2" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-May/001324.html" source="VENDOR" />
+    <reference ref_id="USN-1126-2" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-May/001339.html" source="VENDOR" />
     <reference ref_id="CVE-2010-4697" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-4697" source="CVE" />
     <reference ref_id="CVE-2011-1072" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1072" source="CVE" />
     <reference ref_id="CVE-2011-1144" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1144" source="CVE" />

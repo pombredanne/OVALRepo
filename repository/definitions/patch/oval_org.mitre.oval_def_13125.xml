@@ -1,11 +1,11 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13125" version="6">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13125" version="20">
   <metadata>
     <title>USN-1024-2 -- openjdk-6 regression</title>
     <affected family="unix">
       <platform>Ubuntu 10.10</platform>
       <product>openjdk-6</product>
     </affected>
-    <reference ref_id="USN-1024-2" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-December/001216.html" source="VENDOR" />
+    <reference ref_id="USN-1024-2" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-December/001231.html" source="VENDOR" />
     <description>USN-1024-1 fixed vulnerabilities in OpenJDK. Some of the additional backported improvements could interfere with the compilation of certain Java software. This update fixes the problem. We apologize for the inconvenience. Original advisory details: It was discovered that certain system property information was being leaked, which could allow an attacker to obtain sensitive information.</description>
     <oval_repository>
       <dates>

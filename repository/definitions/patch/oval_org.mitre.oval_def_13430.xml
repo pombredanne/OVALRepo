@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13430" version="6">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13430" version="20">
   <metadata>
     <title>USN-931-2 -- ffmpeg, ffmpeg-debian regression</title>
     <affected family="unix">
@@ -9,7 +9,7 @@
       <product>ffmpeg</product>
       <product>ffmpeg-debian</product>
     </affected>
-    <reference ref_id="USN-931-2" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-April/001086.html" source="VENDOR" />
+    <reference ref_id="USN-931-2" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-April/001101.html" source="VENDOR" />
     <description>USN-931-1 fixed vulnerabilities in FFmpeg. The update introduced a regression when trying to play certain multimedia files. This update fixes the problem. We apologize for the inconvenience. Original advisory details: It was discovered that FFmpeg contained multiple security issues when handling certain multimedia files. If a user were tricked into opening a crafted multimedia file, an attacker could cause a denial of service via application crash, or possibly execute arbitrary code with the privileges of the user invoking the program.</description>
     <oval_repository>
       <dates>

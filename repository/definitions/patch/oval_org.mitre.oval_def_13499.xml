@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13499" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13499" version="23">
   <metadata>
     <title>USN-1135-1 -- exim4 vulnerability</title>
     <affected family="unix">
@@ -6,7 +6,7 @@
       <platform>Ubuntu 10.04</platform>
       <product>exim4</product>
     </affected>
-    <reference ref_id="USN-1135-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-May/001334.html" source="VENDOR" />
+    <reference ref_id="USN-1135-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-May/001349.html" source="VENDOR" />
     <reference ref_id="CVE-2011-1407" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1407" source="CVE" />
     <description>exim4: metapackage to ease Exim MTA installation an attacker could send crafted input to Exim and cause it to run programs as the Exim user.</description>
     <oval_repository>

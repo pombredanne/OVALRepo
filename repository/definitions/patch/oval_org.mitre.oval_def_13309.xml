@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13309" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13309" version="22">
   <metadata>
     <title>USN-967-1 -- w3m vulnerability</title>
     <affected family="unix">
@@ -9,7 +9,7 @@
       <platform>Ubuntu 9.04</platform>
       <product>w3m</product>
     </affected>
-    <reference ref_id="USN-967-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-August/001137.html" source="VENDOR" />
+    <reference ref_id="USN-967-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-August/001152.html" source="VENDOR" />
     <reference ref_id="CVE-2010-2074" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-2074" source="CVE" />
     <description>Ludwig Nussel discovered w3m does not properly handle SSL/TLS certificates with NULL characters in the certificate name. An attacker could exploit this to perform a man in the middle attack to view sensitive information or alter encrypted communications</description>
     <oval_repository>

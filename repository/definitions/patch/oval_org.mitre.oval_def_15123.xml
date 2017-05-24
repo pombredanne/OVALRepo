@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15123" version="9">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15123" version="23">
   <metadata>
     <title>USN-1284-1 -- Update Manager vulnerabilities</title>
     <affected family="unix">
@@ -9,7 +9,7 @@
       <platform>Ubuntu 10.10</platform>
       <product>Update</product>
     </affected>
-    <reference ref_id="USN-1284-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-November/001502.html" source="VENDOR" />
+    <reference ref_id="USN-1284-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-November/001517.html" source="VENDOR" />
     <reference ref_id="CVE-2011-3152" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-3152" source="CVE" />
     <reference ref_id="CVE-2011-3154" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-3154" source="CVE" />
     <description>update-manager: GNOME application that manages apt updates - update-notifier: Daemon which notifies about package updates Update Manager could be made to overwrite files as the administrator.</description>

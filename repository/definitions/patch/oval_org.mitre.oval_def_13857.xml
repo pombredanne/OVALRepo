@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13857" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13857" version="22">
   <metadata>
     <title>USN-759-1 -- poppler vulnerabilities</title>
     <affected family="unix">
@@ -7,7 +7,7 @@
       <platform>Ubuntu 8.10</platform>
       <product>poppler</product>
     </affected>
-    <reference ref_id="USN-759-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-April/000885.html" source="VENDOR" />
+    <reference ref_id="USN-759-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-April/000891.html" source="VENDOR" />
     <reference ref_id="CVE-2009-0146" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-0146" source="CVE" />
     <reference ref_id="CVE-2009-0147" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-0147" source="CVE" />
     <reference ref_id="CVE-2009-0166" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-0166" source="CVE" />

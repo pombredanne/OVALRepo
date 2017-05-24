@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13647" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13647" version="22">
   <metadata>
     <title>USN-834-1 -- postgresql-8.1, postgresql-8.3 vulnerabilities</title>
     <affected family="unix">
@@ -9,7 +9,7 @@
       <product>postgresql-8.1</product>
       <product>postgresql-8.3</product>
     </affected>
-    <reference ref_id="USN-834-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-September/000975.html" source="VENDOR" />
+    <reference ref_id="USN-834-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-September/000977.html" source="VENDOR" />
     <reference ref_id="CVE-2009-3229" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-3229" source="CVE" />
     <reference ref_id="CVE-2007-6600" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-6600" source="CVE" />
     <reference ref_id="CVE-2009-3230" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-3230" source="CVE" />

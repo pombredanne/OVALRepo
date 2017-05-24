@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15139" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15139" version="22">
   <metadata>
     <title>USN-1306-1 -- Firefox vulnerabilities</title>
     <affected family="unix">
@@ -6,7 +6,7 @@
       <platform>Ubuntu 11.10</platform>
       <product>Firefox</product>
     </affected>
-    <reference ref_id="USN-1306-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2012-January/001541.html" source="VENDOR" />
+    <reference ref_id="USN-1306-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2012-January/001556.html" source="VENDOR" />
     <reference ref_id="CVE-2011-3660" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-3660" source="CVE" />
     <reference ref_id="CVE-2011-3661" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-3661" source="CVE" />
     <reference ref_id="CVE-2011-3658" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-3658" source="CVE" />

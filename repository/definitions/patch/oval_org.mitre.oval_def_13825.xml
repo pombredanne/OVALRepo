@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13825" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13825" version="22">
   <metadata>
     <title>USN-809-1 -- gnutls12, gnutls13, gnutls26 vulnerabilities</title>
     <affected family="unix">
@@ -10,7 +10,7 @@
       <product>gnutls13</product>
       <product>gnutls26</product>
     </affected>
-    <reference ref_id="USN-809-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-August/000954.html" source="VENDOR" />
+    <reference ref_id="USN-809-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-August/000960.html" source="VENDOR" />
     <reference ref_id="CVE-2009-2730" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-2730" source="CVE" />
     <reference ref_id="CVE-2009-2409" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-2409" source="CVE" />
     <reference ref_id="CVE-2008-4989" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-4989" source="CVE" />

@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13910" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13910" version="23">
   <metadata>
     <title>USN-854-1 -- libgd2 vulnerabilities</title>
     <affected family="unix">
@@ -9,7 +9,7 @@
       <platform>Ubuntu 9.04</platform>
       <product>libgd2</product>
     </affected>
-    <reference ref_id="USN-854-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-November/000994.html" source="VENDOR" />
+    <reference ref_id="USN-854-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-November/001009.html" source="VENDOR" />
     <reference ref_id="CVE-2009-3546" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-3546" source="CVE" />
     <reference ref_id="CVE-2009-3293" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-3293" source="CVE" />
     <reference ref_id="CVE-2007-3475" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-3475" source="CVE" />

@@ -1,11 +1,11 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15352" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15352" version="22">
   <metadata>
     <title>USN-1192-2 -- Mozvoikko update</title>
     <affected family="unix">
       <platform>Ubuntu 11.04</platform>
       <product>Mozvoikko</product>
     </affected>
-    <reference ref_id="USN-1192-2" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-August/001396.html" source="VENDOR" />
+    <reference ref_id="USN-1192-2" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-August/001411.html" source="VENDOR" />
     <reference ref_id="CVE-2011-2989" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2989" source="CVE" />
     <reference ref_id="CVE-2011-2991" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2991" source="CVE" />
     <reference ref_id="CVE-2011-2985" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2985" source="CVE" />

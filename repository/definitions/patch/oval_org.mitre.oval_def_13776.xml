@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13776" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13776" version="22">
   <metadata>
     <title>USN-848-1 -- zope3 vulnerabilities</title>
     <affected family="unix">
@@ -8,7 +8,7 @@
       <platform>Ubuntu 8.10</platform>
       <product>zope3</product>
     </affected>
-    <reference ref_id="USN-848-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-October/000986.html" source="VENDOR" />
+    <reference ref_id="USN-848-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-October/001001.html" source="VENDOR" />
     <reference ref_id="CVE-2009-0668" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-0668" source="CVE" />
     <reference ref_id="CVE-2009-0669" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-0669" source="CVE" />
     <description>It was discovered that the Zope Object Database database server improperly filtered certain commands when a database is shared among multiple applications or application instances. A remote attacker could send malicious commands to the server and execute arbitrary code. It was discovered that the Zope Object Database database server did not handle authentication properly when a database is shared among multiple applications or application instances. A remote attacker could use this flaw to bypass security restrictions. It was discovered that Zope did not limit the number of new object ids a client could request. A remote attacker could use this flaw to consume a huge amount of resources, leading to a denial of service</description>

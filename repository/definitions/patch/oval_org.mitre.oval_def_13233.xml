@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13233" version="7">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13233" version="21">
   <metadata>
     <title>USN-701-1 -- thunderbird vulnerabilities</title>
     <affected family="unix">
@@ -7,7 +7,7 @@
       <platform>Ubuntu 8.04</platform>
       <product>thunderbird</product>
     </affected>
-    <reference ref_id="USN-701-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-January/000820.html" source="VENDOR" />
+    <reference ref_id="USN-701-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-January/000826.html" source="VENDOR" />
     <reference ref_id="CVE-2008-5500" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-5500" source="CVE" />
     <reference ref_id="CVE-2008-5503" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-5503" source="CVE" />
     <reference ref_id="CVE-2008-5506" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-5506" source="CVE" />

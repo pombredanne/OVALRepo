@@ -1,11 +1,11 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13709" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13709" version="22">
   <metadata>
     <title>USN-1072-1 -- linux vulnerabilities</title>
     <affected family="unix">
       <platform>Ubuntu 8.04</platform>
       <product>linux</product>
     </affected>
-    <reference ref_id="USN-1072-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-February/001256.html" source="VENDOR" />
+    <reference ref_id="USN-1072-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-February/001271.html" source="VENDOR" />
     <reference ref_id="CVE-2010-0435" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0435" source="CVE" />
     <reference ref_id="CVE-2010-2943" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-2943" source="CVE" />
     <reference ref_id="CVE-2010-3296" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-3296" source="CVE" />

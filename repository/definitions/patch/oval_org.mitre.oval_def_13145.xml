@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13145" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13145" version="22">
   <metadata>
     <title>USN-1037-1 -- ifupdown update</title>
     <affected family="unix">
@@ -6,7 +6,7 @@
       <platform>Ubuntu 10.04</platform>
       <product>ifupdown</product>
     </affected>
-    <reference ref_id="USN-1037-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-January/001221.html" source="VENDOR" />
+    <reference ref_id="USN-1037-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-January/001236.html" source="VENDOR" />
     <description>Under certain circumstances, the DHCP client could start before its AppArmor profile was loaded and therefore run unconfined. This update ensures the AppArmor profile is loaded before DHCP client starts.</description>
     <oval_repository>
       <dates>

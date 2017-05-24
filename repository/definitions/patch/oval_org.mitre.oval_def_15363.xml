@@ -1,11 +1,11 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15363" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15363" version="22">
   <metadata>
     <title>USN-1290-1 -- Kerberos vulnerability</title>
     <affected family="unix">
       <platform>Ubuntu 11.10</platform>
       <product>Kerberos</product>
     </affected>
-    <reference ref_id="USN-1290-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-December/001509.html" source="VENDOR" />
+    <reference ref_id="USN-1290-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-December/001524.html" source="VENDOR" />
     <reference ref_id="CVE-2011-1530" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1530" source="CVE" />
     <description>krb5: MIT Kerberos Network Authentication Protocol The Kerberos Key Distribution Center could be made to crash.</description>
     <oval_repository>

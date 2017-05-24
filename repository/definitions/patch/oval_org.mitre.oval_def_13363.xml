@@ -1,11 +1,11 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13363" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13363" version="22">
   <metadata>
     <title>USN-1074-2 -- linux-fsl-imx51 vulnerabilities</title>
     <affected family="unix">
       <platform>Ubuntu 10.04</platform>
       <product>linux-fsl-imx51</product>
     </affected>
-    <reference ref_id="USN-1074-2" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-February/001262.html" source="VENDOR" />
+    <reference ref_id="USN-1074-2" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-February/001277.html" source="VENDOR" />
     <reference ref_id="CVE-2010-3904" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-3904" source="CVE" />
     <reference ref_id="CVE-2010-3848" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-3848" source="CVE" />
     <reference ref_id="CVE-2010-3849" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-3849" source="CVE" />

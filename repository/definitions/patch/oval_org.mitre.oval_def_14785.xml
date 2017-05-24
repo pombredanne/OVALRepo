@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:14785" version="6">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:14785" version="20">
   <metadata>
     <title>USN-1197-2 -- Thunderbird vulnerability</title>
     <affected family="unix">
@@ -7,7 +7,7 @@
       <platform>Ubuntu 10.10</platform>
       <product>Thunderbird</product>
     </affected>
-    <reference ref_id="USN-1197-2" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-September/001406.html" source="VENDOR" />
+    <reference ref_id="USN-1197-2" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-September/001421.html" source="VENDOR" />
     <description>thunderbird: Mozilla Open Source mail and newsgroup client Details: USN-1197-1 fixed a vulnerability in Firefox with regard to the DigiNotar certificate authority. This update provides the corresponding updates for Thunderbird. We are aware that the DigiNotar Root CA Certificate is still shown as trusted in the Thunderbird certificate manager. This is due to Thunderbird using the system version of the Network Security Service libraries . Thunderbird will actively distrust any certificate signed by this DigiNotar Root CA certificate. This means that users will still get an untrusted certificate warning when accessing a service through Thunderbird that presents a certificate signed by this DigiNotar Root CA certificate. Original advisory A certificate authority issued fraudulent certificates.</description>
     <oval_repository>
       <dates>

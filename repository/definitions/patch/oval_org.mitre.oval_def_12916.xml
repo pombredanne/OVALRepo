@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:12916" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:12916" version="22">
   <metadata>
     <title>USN-1047-1 -- awstats vulnerability</title>
     <affected family="unix">
@@ -9,7 +9,7 @@
       <platform>Ubuntu 6.06</platform>
       <product>awstats</product>
     </affected>
-    <reference ref_id="USN-1047-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-January/001233.html" source="VENDOR" />
+    <reference ref_id="USN-1047-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-January/001248.html" source="VENDOR" />
     <reference ref_id="CVE-2010-4369" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-4369" source="CVE" />
     <description>It was discovered that AWStats did not correctly filter the LoadPlugin configuration option. A local attacker on a shared system could use this to inject arbitrary code into AWStats.</description>
     <oval_repository>

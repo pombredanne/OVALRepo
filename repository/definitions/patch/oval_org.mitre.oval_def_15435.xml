@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15435" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15435" version="22">
   <metadata>
     <title>USN-1252-1 -- Tomcat vulnerabilities</title>
     <affected family="unix">
@@ -8,7 +8,7 @@
       <platform>Ubuntu 10.10</platform>
       <product>Tomcat</product>
     </affected>
-    <reference ref_id="USN-1252-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-November/001470.html" source="VENDOR" />
+    <reference ref_id="USN-1252-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-November/001485.html" source="VENDOR" />
     <reference ref_id="CVE-2011-1184" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1184" source="CVE" />
     <reference ref_id="CVE-2011-2204" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2204" source="CVE" />
     <reference ref_id="CVE-2011-2526" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2526" source="CVE" />

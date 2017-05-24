@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13470" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13470" version="22">
   <metadata>
     <title>USN-995-1 -- libmikmod vulnerabilities</title>
     <affected family="unix">
@@ -7,7 +7,7 @@
       <platform>Ubuntu 9.10</platform>
       <product>libmikmod</product>
     </affected>
-    <reference ref_id="USN-995-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-September/001170.html" source="VENDOR" />
+    <reference ref_id="USN-995-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-September/001185.html" source="VENDOR" />
     <reference ref_id="CVE-2007-6720" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-6720" source="CVE" />
     <reference ref_id="CVE-2009-0179" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-0179" source="CVE" />
     <reference ref_id="CVE-2009-3995" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-3995" source="CVE" />

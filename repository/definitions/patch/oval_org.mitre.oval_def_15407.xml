@@ -1,11 +1,11 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15407" version="7">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15407" version="21">
   <metadata>
     <title>USN-1340-1 -- Linux kernel (Oneiric backport) vulnerabilities</title>
     <affected family="unix">
       <platform>Ubuntu 10.04</platform>
       <product>Linux</product>
     </affected>
-    <reference ref_id="USN-1340-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2012-January/001560.html" source="VENDOR" />
+    <reference ref_id="USN-1340-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2012-January/001575.html" source="VENDOR" />
     <reference ref_id="CVE-2011-2203" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2203" source="CVE" />
     <reference ref_id="CVE-2011-4077" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4077" source="CVE" />
     <reference ref_id="CVE-2011-4110" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4110" source="CVE" />

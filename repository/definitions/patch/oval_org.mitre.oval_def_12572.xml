@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:12572" version="10">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:12572" version="24">
   <metadata>
     <title>USN-891-1 -- lintian vulnerabilities</title>
     <affected family="unix">
@@ -9,7 +9,7 @@
       <platform>Ubuntu 9.04</platform>
       <product>lintian</product>
     </affected>
-    <reference ref_id="USN-891-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-January/001038.html" source="VENDOR" />
+    <reference ref_id="USN-891-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-January/001053.html" source="VENDOR" />
     <reference ref_id="CVE-2009-4013" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-4013" source="CVE" />
     <reference ref_id="CVE-2009-4014" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-4014" source="CVE" />
     <reference ref_id="CVE-2009-4015" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-4015" source="CVE" />

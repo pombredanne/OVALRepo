@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13426" version="7">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13426" version="21">
   <metadata>
     <title>USN-1067-1 -- telepathy-gabble vulnerability</title>
     <affected family="unix">
@@ -7,7 +7,7 @@
       <platform>Ubuntu 10.04</platform>
       <product>telepathy-gabble</product>
     </affected>
-    <reference ref_id="USN-1067-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-February/001251.html" source="VENDOR" />
+    <reference ref_id="USN-1067-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-February/001266.html" source="VENDOR" />
     <description>It was discovered that Gabble did not verify the from field of google jingleinfo updates. This could allow a remote attacker to perform man in the middle attacks on streamed media.</description>
     <oval_repository>
       <dates>

@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13051" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13051" version="22">
   <metadata>
     <title>USN-982-1 -- wget vulnerability</title>
     <affected family="unix">
@@ -9,7 +9,7 @@
       <platform>Ubuntu 9.04</platform>
       <product>wget</product>
     </affected>
-    <reference ref_id="USN-982-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-September/001150.html" source="VENDOR" />
+    <reference ref_id="USN-982-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-September/001165.html" source="VENDOR" />
     <reference ref_id="CVE-2010-2252" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-2252" source="CVE" />
     <description>It was discovered that Wget would use filenames provided by the server when following 3xx redirects. If a user or automated system were tricked into downloading a file from a malicious site, a remote attacker could create the file with an arbitrary name, and possibly run arbitrary code.</description>
     <oval_repository>

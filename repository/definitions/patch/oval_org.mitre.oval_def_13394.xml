@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13394" version="6">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13394" version="20">
   <metadata>
     <title>USN-1006-1 -- webkit vulnerabilities</title>
     <affected family="unix">
@@ -7,7 +7,7 @@
       <platform>Ubuntu 10.04</platform>
       <product>webkit</product>
     </affected>
-    <reference ref_id="USN-1006-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-October/001179.html" source="VENDOR" />
+    <reference ref_id="USN-1006-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-October/001194.html" source="VENDOR" />
     <description>A large number of security issues were discovered in the WebKit browser and JavaScript engines. If a user were tricked into viewing a malicious website, a remote attacker could exploit a variety of issues related to web browser security, including cross-site scripting attacks, denial of service attacks, and arbitrary code execution. Please consult the bug listed at the top of this advisory to get the exact list of CVE numbers fixed for each release.</description>
     <oval_repository>
       <dates>

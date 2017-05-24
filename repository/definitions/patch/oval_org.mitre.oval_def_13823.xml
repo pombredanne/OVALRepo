@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13823" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13823" version="23">
   <metadata>
     <title>USN-1136-1 -- rdesktop vulnerability</title>
     <affected family="unix">
@@ -6,7 +6,7 @@
       <platform>Ubuntu 10.04</platform>
       <product>rdesktop</product>
     </affected>
-    <reference ref_id="USN-1136-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-May/001333.html" source="VENDOR" />
+    <reference ref_id="USN-1136-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-May/001348.html" source="VENDOR" />
     <reference ref_id="CVE-2011-1595" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1595" source="CVE" />
     <description>rdesktop: RDP client for Windows NT/2000 Terminal Server An attacker could access your files if rdesktop connected to a malicious server.</description>
     <oval_repository>

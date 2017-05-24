@@ -1,11 +1,11 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13820" version="5">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13820" version="19">
   <metadata>
     <title>USN-770-1 -- clamav vulnerability</title>
     <affected family="unix">
       <platform>Ubuntu 9.04</platform>
       <product>clamav</product>
     </affected>
-    <reference ref_id="USN-770-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-May/000897.html" source="VENDOR" />
+    <reference ref_id="USN-770-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-May/000903.html" source="VENDOR" />
     <description>A flaw was discovered in the clamav-milter initscript which caused the ownership of the current working directory to be changed to the "clamav" user. This update attempts to repair the incorrect ownership for standard system directories, but it is recommended that the following command be performed to report any other directories that may be affected: $ sudo find -H / -type d -user clamav \! -group clamav 2&amp;gt;/dev/null Systems configured to run clamav as a user other than the default "clamav" user will need to adjust the above command accordingly.</description>
     <oval_repository>
       <dates>

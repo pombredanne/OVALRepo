@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13736" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13736" version="22">
   <metadata>
     <title>USN-1060-1 -- exim4 vulnerabilities</title>
     <affected family="unix">
@@ -9,7 +9,7 @@
       <platform>Ubuntu 6.06</platform>
       <product>exim4</product>
     </affected>
-    <reference ref_id="USN-1060-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-February/001244.html" source="VENDOR" />
+    <reference ref_id="USN-1060-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-February/001259.html" source="VENDOR" />
     <reference ref_id="CVE-2010-4345" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-4345" source="CVE" />
     <reference ref_id="CVE-2011-0017" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0017" source="CVE" />
     <reference ref_id="CVE-2010-2023" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-2023" source="CVE" />

@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13370" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13370" version="23">
   <metadata>
     <title>USN-824-1 -- php5 vulnerability</title>
     <affected family="unix">
@@ -8,7 +8,7 @@
       <platform>Ubuntu 8.10</platform>
       <product>php5</product>
     </affected>
-    <reference ref_id="USN-824-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-August/000959.html" source="VENDOR" />
+    <reference ref_id="USN-824-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-August/000965.html" source="VENDOR" />
     <reference ref_id="CVE-2009-2687" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-2687" source="CVE" />
     <description>It was discovered that PHP did not properly handle certain malformed JPEG images when being parsed by the Exif module. A remote attacker could exploit this flaw and cause the PHP server to crash, resulting in a denial of service.</description>
     <oval_repository>

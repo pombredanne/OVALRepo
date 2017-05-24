@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15316" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15316" version="23">
   <metadata>
     <title>USN-1263-1 -- IcedTea-Web, OpenJDK 6 vulnerabilities</title>
     <affected family="unix">
@@ -8,7 +8,7 @@
       <platform>Ubuntu 10.10</platform>
       <product>IcedTea-Web</product>
     </affected>
-    <reference ref_id="USN-1263-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-November/001481.html" source="VENDOR" />
+    <reference ref_id="USN-1263-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-November/001496.html" source="VENDOR" />
     <reference ref_id="CVE-2011-3377" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-3377" source="CVE" />
     <reference ref_id="CVE-2011-3389" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-3389" source="CVE" />
     <reference ref_id="CVE-2011-3521" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-3521" source="CVE" />

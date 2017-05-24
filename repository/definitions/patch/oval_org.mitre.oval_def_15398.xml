@@ -1,11 +1,11 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15398" version="7">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15398" version="21">
   <metadata>
     <title>USN-1202-1 -- Linux kernel (OMAP4) vulnerabilities</title>
     <affected family="unix">
       <platform>Ubuntu 10.10</platform>
       <product>Linux</product>
     </affected>
-    <reference ref_id="USN-1202-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-September/001412.html" source="VENDOR" />
+    <reference ref_id="USN-1202-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-September/001427.html" source="VENDOR" />
     <reference ref_id="CVE-2010-3296" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-3296" source="CVE" />
     <reference ref_id="CVE-2010-3297" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-3297" source="CVE" />
     <reference ref_id="CVE-2010-3858" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-3858" source="CVE" />

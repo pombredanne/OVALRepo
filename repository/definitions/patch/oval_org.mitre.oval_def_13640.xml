@@ -1,11 +1,11 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13640" version="6">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13640" version="20">
   <metadata>
     <title>USN-863-1 -- qemu-kvm vulnerability</title>
     <affected family="unix">
       <platform>Ubuntu 9.10</platform>
       <product>qemu-kvm</product>
     </affected>
-    <reference ref_id="USN-863-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-December/001004.html" source="VENDOR" />
+    <reference ref_id="USN-863-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-December/001019.html" source="VENDOR" />
     <description>It was discovered that QEMU did not properly setup the virtio networking features available to its guests. A remote attacker could exploit this to crash QEMU guests which use virtio networking on Linux kernels earlier than 2.6.26.</description>
     <oval_repository>
       <dates>

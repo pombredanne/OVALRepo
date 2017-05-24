@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13249" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13249" version="22">
   <metadata>
     <title>USN-931-1 -- ffmpeg, ffmpeg-debian vulnerabilities</title>
     <affected family="unix">
@@ -9,7 +9,7 @@
       <product>ffmpeg</product>
       <product>ffmpeg-debian</product>
     </affected>
-    <reference ref_id="USN-931-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-April/001083.html" source="VENDOR" />
+    <reference ref_id="USN-931-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-April/001098.html" source="VENDOR" />
     <reference ref_id="CVE-2009-4632" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-4632" source="CVE" />
     <reference ref_id="CVE-2009-4633" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-4633" source="CVE" />
     <reference ref_id="CVE-2009-4634" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-4634" source="CVE" />

@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:12521" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:12521" version="22">
   <metadata>
     <title>USN-930-6 -- firefox, firefox-3.0, xulrunner-1.9.2 vulnerability</title>
     <affected family="unix">
@@ -8,7 +8,7 @@
       <product>firefox-3.0</product>
       <product>xulrunner-1.9.2</product>
     </affected>
-    <reference ref_id="USN-930-6" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-July/001131.html" source="VENDOR" />
+    <reference ref_id="USN-930-6" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-July/001146.html" source="VENDOR" />
     <reference ref_id="CVE-2010-1214" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-1214" source="CVE" />
     <reference ref_id="CVE-2010-2755" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-2755" source="CVE" />
     <reference ref_id="CVE-2010-1121" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-1121" source="CVE" />

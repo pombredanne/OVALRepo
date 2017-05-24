@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13398" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13398" version="22">
   <metadata>
     <title>USN-976-1 -- tomcat6 vulnerability</title>
     <affected family="unix">
@@ -7,7 +7,7 @@
       <platform>Ubuntu 9.10</platform>
       <product>tomcat6</product>
     </affected>
-    <reference ref_id="USN-976-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-August/001145.html" source="VENDOR" />
+    <reference ref_id="USN-976-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-August/001160.html" source="VENDOR" />
     <reference ref_id="CVE-2010-2227" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-2227" source="CVE" />
     <description>It was discovered that Tomcat incorrectly handled invalid Transfer-Encoding headers. A remote attacker could send specially crafted requests containing invalid headers to the server and cause a denial of service, or possibly obtain sensitive information from other requests.</description>
     <oval_repository>

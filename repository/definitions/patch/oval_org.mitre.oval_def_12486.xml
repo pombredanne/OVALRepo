@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:12486" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:12486" version="22">
   <metadata>
     <title>USN-884-1 -- openssl vulnerability</title>
     <affected family="unix">
@@ -9,7 +9,7 @@
       <platform>Ubuntu 9.04</platform>
       <product>openssl</product>
     </affected>
-    <reference ref_id="USN-884-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-January/001026.html" source="VENDOR" />
+    <reference ref_id="USN-884-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-January/001041.html" source="VENDOR" />
     <reference ref_id="CVE-2009-4355" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-4355" source="CVE" />
     <description>It was discovered that OpenSSL did not correctly free unused memory in certain situations. A remote attacker could trigger this flaw in services that used SSL, causing the service to use all available system memory, leading to a denial of service.</description>
     <oval_repository>

@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:14629" version="10">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:14629" version="24">
   <metadata>
     <title>USN-1320-1 -- FFmpeg vulnerabilities</title>
     <affected family="unix">
@@ -6,7 +6,7 @@
       <platform>Ubuntu 10.04</platform>
       <product>FFmpeg</product>
     </affected>
-    <reference ref_id="USN-1320-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2012-January/001540.html" source="VENDOR" />
+    <reference ref_id="USN-1320-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2012-January/001555.html" source="VENDOR" />
     <reference ref_id="CVE-2011-3504" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-3504" source="CVE" />
     <reference ref_id="CVE-2011-4351" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4351" source="CVE" />
     <reference ref_id="CVE-2011-4352" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4352" source="CVE" />

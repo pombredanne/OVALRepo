@@ -1,11 +1,11 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15376" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15376" version="22">
   <metadata>
     <title>USN-1374-1 -- Samba vulnerability</title>
     <affected family="unix">
       <platform>Ubuntu 8.04</platform>
       <product>Samba</product>
     </affected>
-    <reference ref_id="USN-1374-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2012-February/001603.html" source="VENDOR" />
+    <reference ref_id="USN-1374-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2012-February/001618.html" source="VENDOR" />
     <reference ref_id="CVE-2012-0870" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0870" source="CVE" />
     <description>samba: SMB/CIFS file, print, and login server for Unix Samba could be made to crash or run programs if it received specially crafted network traffic.</description>
     <oval_repository>

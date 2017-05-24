@@ -1,11 +1,11 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15142" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15142" version="22">
   <metadata>
     <title>USN-1204-1 -- Linux kernel (i.MX51) vulnerabilities</title>
     <affected family="unix">
       <platform>Ubuntu 10.04</platform>
       <product>Linux</product>
     </affected>
-    <reference ref_id="USN-1204-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-September/001414.html" source="VENDOR" />
+    <reference ref_id="USN-1204-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-September/001429.html" source="VENDOR" />
     <reference ref_id="CVE-2010-3859" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-3859" source="CVE" />
     <reference ref_id="CVE-2010-4075" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-4075" source="CVE" />
     <reference ref_id="CVE-2010-4076" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-4076" source="CVE" />

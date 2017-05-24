@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:12810" version="7">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:12810" version="21">
   <metadata>
     <title>USN-1088-1 -- krb5 vulnerability</title>
     <affected family="unix">
@@ -7,7 +7,7 @@
       <platform>Ubuntu 10.04</platform>
       <product>krb5</product>
     </affected>
-    <reference ref_id="USN-1088-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-March/001279.html" source="VENDOR" />
+    <reference ref_id="USN-1088-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-March/001294.html" source="VENDOR" />
     <reference ref_id="CVE-2011-0284" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0284" source="CVE" />
     <description>Cameron Meadors discovered that the MIT Kerberos 5 Key Distribution Center daemon is vulnerable to a double-free condition if the Public Key Cryptography for Initial Authentication capability is enabled. This could allow a remote attacker to cause a denial of service.</description>
     <oval_repository>

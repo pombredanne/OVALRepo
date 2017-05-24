@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:12995" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:12995" version="22">
   <metadata>
     <title>USN-899-1 -- tomcat6 vulnerabilities</title>
     <affected family="unix">
@@ -7,7 +7,7 @@
       <platform>Ubuntu 9.04</platform>
       <product>tomcat6</product>
     </affected>
-    <reference ref_id="USN-899-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-February/001044.html" source="VENDOR" />
+    <reference ref_id="USN-899-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-February/001059.html" source="VENDOR" />
     <reference ref_id="CVE-2009-2693" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-2693" source="CVE" />
     <reference ref_id="CVE-2009-2901" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-2901" source="CVE" />
     <reference ref_id="CVE-2009-2902" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-2902" source="CVE" />

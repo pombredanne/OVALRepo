@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13594" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13594" version="22">
   <metadata>
     <title>USN-1041-1 -- linux, linux-ec2 vulnerabilities</title>
     <affected family="unix">
@@ -8,7 +8,7 @@
       <product>linux</product>
       <product>linux-ec2</product>
     </affected>
-    <reference ref_id="USN-1041-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-January/001224.html" source="VENDOR" />
+    <reference ref_id="USN-1041-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-January/001239.html" source="VENDOR" />
     <reference ref_id="CVE-2010-3301" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-3301" source="CVE" />
     <reference ref_id="CVE-2010-2537" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-2537" source="CVE" />
     <reference ref_id="CVE-2010-2538" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-2538" source="CVE" />

@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15003" version="5">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15003" version="19">
   <metadata>
     <title>USN-1197-3 -- Firefox and Xulrunner vulnerability</title>
     <affected family="unix">
@@ -7,7 +7,7 @@
       <platform>Ubuntu 10.10</platform>
       <product>Firefox</product>
     </affected>
-    <reference ref_id="USN-1197-3" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-September/001407.html" source="VENDOR" />
+    <reference ref_id="USN-1197-3" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-September/001422.html" source="VENDOR" />
     <description>firefox: Mozilla Open Source web browser - xulrunner-1.9.2: Mozilla Gecko runtime environment Details: USN-1197-1 partially addressed an issue with Dutch Certificate Authority DigiNotar mis-issuing fraudulent certificates. This update actively distrusts the DigiNotar root certificate as well as several intermediary certificates. Also included in this list of distrusted certificates are the Staat der Nederlanden root certificates. Original advisory A certificate authority issued fraudulent certificates.</description>
     <oval_repository>
       <dates>

@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13937" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13937" version="22">
   <metadata>
     <title>USN-1108-2 -- dhcp3 vulnerability</title>
     <affected family="unix">
@@ -7,7 +7,7 @@
       <platform>Ubuntu 10.04</platform>
       <product>dhcp3</product>
     </affected>
-    <reference ref_id="USN-1108-2" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-April/001308.html" source="VENDOR" />
+    <reference ref_id="USN-1108-2" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-April/001323.html" source="VENDOR" />
     <reference ref_id="CVE-2011-0997" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0997" source="CVE" />
     <description>dhcp3: DHCP Client Details: USN-1108-1 fixed vulnerabilities in DHCP. Due to an error, the patch to fix the vulnerability was not properly applied on Ubuntu 9.10 and higher. This update fixes the problem. Original advisory An attacker�s DHCP server could send crafted responses to your computer and cause it to run programs as root.</description>
     <oval_repository>

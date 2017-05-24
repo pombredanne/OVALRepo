@@ -1,11 +1,11 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15108" version="7">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15108" version="21">
   <metadata>
     <title>USN-1203-1 -- Linux kernel (Marvel DOVE) vulnerabilities</title>
     <affected family="unix">
       <platform>Ubuntu 10.04</platform>
       <product>Linux</product>
     </affected>
-    <reference ref_id="USN-1203-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-September/001413.html" source="VENDOR" />
+    <reference ref_id="USN-1203-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-September/001428.html" source="VENDOR" />
     <reference ref_id="CVE-2010-4076" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-4076" source="CVE" />
     <reference ref_id="CVE-2010-4077" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-4077" source="CVE" />
     <reference ref_id="CVE-2010-4251" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-4251" source="CVE" />

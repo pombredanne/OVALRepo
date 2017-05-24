@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:12994" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:12994" version="22">
   <metadata>
     <title>USN-751-1 -- linux, linux-source-2.6.22 vulnerabilities</title>
     <affected family="unix">
@@ -8,7 +8,7 @@
       <product>linux</product>
       <product>linux-source-2.6.22</product>
     </affected>
-    <reference ref_id="USN-751-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-April/000877.html" source="VENDOR" />
+    <reference ref_id="USN-751-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-April/000883.html" source="VENDOR" />
     <reference ref_id="CVE-2008-4307" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-4307" source="CVE" />
     <reference ref_id="CVE-2008-6107" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-6107" source="CVE" />
     <reference ref_id="CVE-2009-0028" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-0028" source="CVE" />

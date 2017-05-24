@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13951" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13951" version="22">
   <metadata>
     <title>USN-840-1 -- openoffice.org vulnerabilities</title>
     <affected family="unix">
@@ -7,7 +7,7 @@
       <platform>Ubuntu 9.04</platform>
       <product>openoffice.org</product>
     </affected>
-    <reference ref_id="USN-840-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-October/000977.html" source="VENDOR" />
+    <reference ref_id="USN-840-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-October/000992.html" source="VENDOR" />
     <reference ref_id="CVE-2009-0200" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-0200" source="CVE" />
     <reference ref_id="CVE-2009-0201" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-0201" source="CVE" />
     <reference ref_id="CVE-2009-2139" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-2139" source="CVE" />

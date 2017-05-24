@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13261" version="5">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13261" version="19">
   <metadata>
     <title>USN-1039-1 -- apparmor update</title>
     <affected family="unix">
@@ -7,7 +7,7 @@
       <platform>Ubuntu 10.04</platform>
       <product>apparmor</product>
     </affected>
-    <reference ref_id="USN-1039-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-January/001222.html" source="VENDOR" />
+    <reference ref_id="USN-1039-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-January/001237.html" source="VENDOR" />
     <description>It was discovered that if AppArmor was misconfigured, under certain circumstances the parser could generate policy using an unconfined fallback execute transition when one was not specified.</description>
     <oval_repository>
       <dates>

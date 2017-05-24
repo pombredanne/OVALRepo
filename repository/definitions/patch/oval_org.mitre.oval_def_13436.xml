@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13436" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13436" version="22">
   <metadata>
     <title>USN-807-1 -- linux, linux-source-2.6.15 vulnerabilities</title>
     <affected family="unix">
@@ -9,7 +9,7 @@
       <product>linux</product>
       <product>linux-source-2.6.15</product>
     </affected>
-    <reference ref_id="USN-807-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-July/000939.html" source="VENDOR" />
+    <reference ref_id="USN-807-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-July/000945.html" source="VENDOR" />
     <reference ref_id="CVE-2009-1389" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-1389" source="CVE" />
     <reference ref_id="CVE-2009-1895" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-1895" source="CVE" />
     <reference ref_id="CVE-2009-2287" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-2287" source="CVE" />

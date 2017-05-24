@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15282" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15282" version="22">
   <metadata>
     <title>USN-1368-1 -- Apache HTTP Server vulnerabilities</title>
     <affected family="unix">
@@ -9,7 +9,7 @@
       <platform>Ubuntu 10.10</platform>
       <product>Apache</product>
     </affected>
-    <reference ref_id="USN-1368-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2012-February/001593.html" source="VENDOR" />
+    <reference ref_id="USN-1368-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2012-February/001608.html" source="VENDOR" />
     <reference ref_id="CVE-2011-3607" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-3607" source="CVE" />
     <reference ref_id="CVE-2011-4317" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4317" source="CVE" />
     <reference ref_id="CVE-2012-0021" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0021" source="CVE" />

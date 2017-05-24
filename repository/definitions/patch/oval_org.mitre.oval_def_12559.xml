@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:12559" version="7">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:12559" version="21">
   <metadata>
     <title>USN-1031-1 -- clamav vulnerabilities</title>
     <affected family="unix">
@@ -6,7 +6,7 @@
       <platform>Ubuntu 10.04</platform>
       <product>clamav</product>
     </affected>
-    <reference ref_id="USN-1031-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-December/001214.html" source="VENDOR" />
+    <reference ref_id="USN-1031-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-December/001229.html" source="VENDOR" />
     <reference ref_id="CVE-2010-4260" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-4260" source="CVE" />
     <reference ref_id="CVE-2010-4479" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-4479" source="CVE" />
     <reference ref_id="CVE-2010-4261" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-4261" source="CVE" />

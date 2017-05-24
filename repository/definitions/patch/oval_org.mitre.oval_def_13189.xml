@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13189" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13189" version="22">
   <metadata>
     <title>USN-894-1 -- linux, linux-source-2.6.15 vulnerabilities</title>
     <affected family="unix">
@@ -10,7 +10,7 @@
       <product>linux</product>
       <product>linux-source-2.6.15</product>
     </affected>
-    <reference ref_id="USN-894-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-February/001041.html" source="VENDOR" />
+    <reference ref_id="USN-894-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-February/001056.html" source="VENDOR" />
     <reference ref_id="CVE-2009-4020" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-4020" source="CVE" />
     <reference ref_id="CVE-2009-4308" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-4308" source="CVE" />
     <reference ref_id="CVE-2009-4021" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-4021" source="CVE" />

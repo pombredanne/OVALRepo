@@ -1,11 +1,11 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:14008" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:14008" version="22">
   <metadata>
     <title>USN-1157-3 -- firefox regression</title>
     <affected family="unix">
       <platform>Ubuntu 11.04</platform>
       <product>firefox</product>
     </affected>
-    <reference ref_id="USN-1157-3" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-June/001361.html" source="VENDOR" />
+    <reference ref_id="USN-1157-3" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-June/001376.html" source="VENDOR" />
     <reference ref_id="CVE-2011-2374" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2374" source="CVE" />
     <reference ref_id="CVE-2011-2375" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2375" source="CVE" />
     <reference ref_id="CVE-2011-2373" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2373" source="CVE" />

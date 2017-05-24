@@ -1,11 +1,11 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13152" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13152" version="22">
   <metadata>
     <title>USN-943-1 -- thunderbird vulnerabilities</title>
     <affected family="unix">
       <platform>Ubuntu 10.04</platform>
       <product>thunderbird</product>
     </affected>
-    <reference ref_id="USN-943-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-July/001116.html" source="VENDOR" />
+    <reference ref_id="USN-943-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-July/001131.html" source="VENDOR" />
     <reference ref_id="CVE-2010-1199" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-1199" source="CVE" />
     <reference ref_id="CVE-2010-1196" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-1196" source="CVE" />
     <reference ref_id="CVE-2010-1200" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-1200" source="CVE" />

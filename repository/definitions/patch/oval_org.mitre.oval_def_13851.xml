@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13851" version="7">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13851" version="21">
   <metadata>
     <title>USN-710-1 -- xine-lib vulnerabilities</title>
     <affected family="unix">
@@ -8,7 +8,7 @@
       <platform>Ubuntu 8.10</platform>
       <product>xine-lib</product>
     </affected>
-    <reference ref_id="USN-710-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-January/000829.html" source="VENDOR" />
+    <reference ref_id="USN-710-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-January/000835.html" source="VENDOR" />
     <reference ref_id="CVE-2008-3231" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-3231" source="CVE" />
     <reference ref_id="CVE-2008-5233" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-5233" source="CVE" />
     <reference ref_id="CVE-2008-5234" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-5234" source="CVE" />

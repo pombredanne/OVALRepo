@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13929" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13929" version="23">
   <metadata>
     <title>USN-709-1 -- tar vulnerability</title>
     <affected family="unix">
@@ -6,7 +6,7 @@
       <platform>Ubuntu 6.06</platform>
       <product>tar</product>
     </affected>
-    <reference ref_id="USN-709-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-January/000827.html" source="VENDOR" />
+    <reference ref_id="USN-709-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-January/000833.html" source="VENDOR" />
     <reference ref_id="CVE-2007-4476" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-4476" source="CVE" />
     <description>Dmitry V. Levin discovered a buffer overflow in tar. If a user or automated system were tricked into opening a specially crafted tar file, an attacker could crash tar or possibly execute arbitrary code with the privileges of the user invoking the program.</description>
     <oval_repository>

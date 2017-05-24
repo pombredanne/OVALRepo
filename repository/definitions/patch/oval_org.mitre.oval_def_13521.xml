@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13521" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13521" version="22">
   <metadata>
     <title>USN-1059-1 -- dovecot vulnerabilities</title>
     <affected family="unix">
@@ -6,7 +6,7 @@
       <platform>Ubuntu 10.04</platform>
       <product>dovecot</product>
     </affected>
-    <reference ref_id="USN-1059-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-February/001243.html" source="VENDOR" />
+    <reference ref_id="USN-1059-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-February/001258.html" source="VENDOR" />
     <reference ref_id="CVE-2010-3304" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-3304" source="CVE" />
     <reference ref_id="CVE-2010-3706" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-3706" source="CVE" />
     <reference ref_id="CVE-2010-3707" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-3707" source="CVE" />

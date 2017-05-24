@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13679" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13679" version="22">
   <metadata>
     <title>USN-1049-2 -- firefox, firefox-{3.0,3.5}, xulrunner-1.9.2 vulnerabilities</title>
     <affected family="unix">
@@ -11,7 +11,7 @@
       <product>firefox-3.5</product>
       <product>xulrunner-1.9.2</product>
     </affected>
-    <reference ref_id="USN-1049-2" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-March/001274.html" source="VENDOR" />
+    <reference ref_id="USN-1049-2" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-March/001289.html" source="VENDOR" />
     <reference ref_id="CVE-2011-0053" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0053" source="CVE" />
     <reference ref_id="CVE-2011-0062" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0062" source="CVE" />
     <reference ref_id="CVE-2011-0051" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0051" source="CVE" />

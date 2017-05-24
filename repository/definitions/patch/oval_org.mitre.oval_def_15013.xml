@@ -1,11 +1,11 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15013" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15013" version="22">
   <metadata>
     <title>USN-1386-1 -- Linux kernel (Natty backport) vulnerabilities</title>
     <affected family="unix">
       <platform>Ubuntu 10.04</platform>
       <product>Linux</product>
     </affected>
-    <reference ref_id="USN-1386-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2012-March/001616.html" source="VENDOR" />
+    <reference ref_id="USN-1386-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2012-March/001631.html" source="VENDOR" />
     <reference ref_id="CVE-2011-2498" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2498" source="CVE" />
     <reference ref_id="CVE-2011-2518" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2518" source="CVE" />
     <reference ref_id="CVE-2011-3353" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-3353" source="CVE" />

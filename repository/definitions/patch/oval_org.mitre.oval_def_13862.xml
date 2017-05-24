@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13862" version="7">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13862" version="21">
   <metadata>
     <title>USN-822-1 -- kde4libs, kdelibs vulnerabilities</title>
     <affected family="unix">
@@ -8,7 +8,7 @@
       <product>kde4libs</product>
       <product>kdelibs</product>
     </affected>
-    <reference ref_id="USN-822-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-August/000957.html" source="VENDOR" />
+    <reference ref_id="USN-822-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-August/000963.html" source="VENDOR" />
     <reference ref_id="CVE-2009-0945" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-0945" source="CVE" />
     <reference ref_id="CVE-2009-1687" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-1687" source="CVE" />
     <reference ref_id="CVE-2009-1690" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-1690" source="CVE" />

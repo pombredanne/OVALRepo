@@ -1,11 +1,11 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15067" version="7">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15067" version="21">
   <metadata>
     <title>USN-1272-1 -- Linux kernel vulnerabilities</title>
     <affected family="unix">
       <platform>Ubuntu 10.10</platform>
       <product>Linux</product>
     </affected>
-    <reference ref_id="USN-1272-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-November/001488.html" source="VENDOR" />
+    <reference ref_id="USN-1272-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-November/001503.html" source="VENDOR" />
     <reference ref_id="CVE-2011-1585" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1585" source="CVE" />
     <reference ref_id="CVE-2011-2183" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2183" source="CVE" />
     <reference ref_id="CVE-2011-2491" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2491" source="CVE" />

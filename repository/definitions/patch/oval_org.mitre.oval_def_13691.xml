@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13691" version="7">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13691" version="21">
   <metadata>
     <title>USN-1082-1 -- pango1.0 vulnerabilities</title>
     <affected family="unix">
@@ -8,7 +8,7 @@
       <platform>Ubuntu 10.04</platform>
       <product>pango1.0</product>
     </affected>
-    <reference ref_id="USN-1082-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-March/001267.html" source="VENDOR" />
+    <reference ref_id="USN-1082-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-March/001282.html" source="VENDOR" />
     <reference ref_id="CVE-2010-0421" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0421" source="CVE" />
     <reference ref_id="CVE-2011-0020" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0020" source="CVE" />
     <reference ref_id="CVE-2011-0064" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0064" source="CVE" />

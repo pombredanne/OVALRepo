@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13646" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13646" version="22">
   <metadata>
     <title>USN-838-1 -- dovecot vulnerabilities</title>
     <affected family="unix">
@@ -7,7 +7,7 @@
       <platform>Ubuntu 9.04</platform>
       <product>dovecot</product>
     </affected>
-    <reference ref_id="USN-838-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-September/000966.html" source="VENDOR" />
+    <reference ref_id="USN-838-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-September/000981.html" source="VENDOR" />
     <reference ref_id="CVE-2008-4577" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-4577" source="CVE" />
     <reference ref_id="CVE-2008-5301" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-5301" source="CVE" />
     <reference ref_id="CVE-2009-2632" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-2632" source="CVE" />

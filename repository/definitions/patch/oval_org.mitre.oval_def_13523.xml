@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13523" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13523" version="22">
   <metadata>
     <title>USN-955-2 -- libpam-opie vulnerability</title>
     <affected family="unix">
@@ -7,7 +7,7 @@
       <platform>Ubuntu 9.10</platform>
       <product>libpam-opie</product>
     </affected>
-    <reference ref_id="USN-955-2" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-June/001108.html" source="VENDOR" />
+    <reference ref_id="USN-955-2" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-June/001123.html" source="VENDOR" />
     <reference ref_id="CVE-2010-1938" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-1938" source="CVE" />
     <description>USN-955-1 fixed vulnerabilities in OPIE. This update provides rebuilt libpam-opie packages against the updated libopie library. Original advisory details: Maksymilian Arciemowicz and Adam Zabrocki discovered that OPIE incorrectly handled long usernames. A remote attacker could exploit this with a crafted username and make applications linked against libopie crash, leading to a denial of service.</description>
     <oval_repository>

@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13052" version="7">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13052" version="21">
   <metadata>
     <title>USN-730-1 -- libpng vulnerabilities</title>
     <affected family="unix">
@@ -8,7 +8,7 @@
       <platform>Ubuntu 8.10</platform>
       <product>libpng</product>
     </affected>
-    <reference ref_id="USN-730-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-March/000855.html" source="VENDOR" />
+    <reference ref_id="USN-730-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-March/000861.html" source="VENDOR" />
     <reference ref_id="CVE-2007-5268" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-5268" source="CVE" />
     <reference ref_id="CVE-2007-5269" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-5269" source="CVE" />
     <reference ref_id="CVE-2008-1382" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-1382" source="CVE" />

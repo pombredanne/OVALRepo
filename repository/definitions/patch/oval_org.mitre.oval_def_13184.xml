@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13184" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13184" version="22">
   <metadata>
     <title>USN-1158-1 -- curl vulnerabilities</title>
     <affected family="unix">
@@ -8,7 +8,7 @@
       <platform>Ubuntu 10.10</platform>
       <product>curl</product>
     </affected>
-    <reference ref_id="USN-1158-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-June/001362.html" source="VENDOR" />
+    <reference ref_id="USN-1158-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-June/001377.html" source="VENDOR" />
     <reference ref_id="CVE-2011-2192" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2192" source="CVE" />
     <reference ref_id="CVE-2010-0734" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0734" source="CVE" />
     <reference ref_id="CVE-2009-2417" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-2417" source="CVE" />

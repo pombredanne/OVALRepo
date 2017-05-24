@@ -1,11 +1,11 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:14006" version="7">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:14006" version="21">
   <metadata>
     <title>USN-1133-1 -- linux vulnerabilities</title>
     <affected family="unix">
       <platform>Ubuntu 8.04</platform>
       <product>linux</product>
     </affected>
-    <reference ref_id="USN-1133-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-May/001331.html" source="VENDOR" />
+    <reference ref_id="USN-1133-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-May/001346.html" source="VENDOR" />
     <reference ref_id="CVE-2010-4342" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-4342" source="CVE" />
     <reference ref_id="CVE-2010-4527" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-4527" source="CVE" />
     <reference ref_id="CVE-2010-4529" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-4529" source="CVE" />

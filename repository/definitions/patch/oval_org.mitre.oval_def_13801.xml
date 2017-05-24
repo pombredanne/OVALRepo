@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13801" version="7">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13801" version="21">
   <metadata>
     <title>USN-719-1 -- libpam-krb5 vulnerabilities</title>
     <affected family="unix">
@@ -6,7 +6,7 @@
       <platform>Ubuntu 8.04</platform>
       <product>libpam-krb5</product>
     </affected>
-    <reference ref_id="USN-719-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-February/000839.html" source="VENDOR" />
+    <reference ref_id="USN-719-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-February/000845.html" source="VENDOR" />
     <reference ref_id="CVE-2009-0360" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-0360" source="CVE" />
     <reference ref_id="CVE-2009-0361" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-0361" source="CVE" />
     <description>It was discovered that pam_krb5 parsed environment variables when run with setuid applications. A local attacker could exploit this flaw to bypass authentication checks and gain root privileges. Derek Chan discovered that pam_krb5 incorrectly handled refreshing existing credentials when used with setuid applications. A local attacker could exploit this to create or overwrite arbitrary files, and possibly gain root privileges</description>

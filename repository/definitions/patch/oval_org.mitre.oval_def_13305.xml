@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13305" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13305" version="22">
   <metadata>
     <title>USN-1010-1 -- openjdk-6, openjdk-6b18 vulnerabilities</title>
     <affected family="unix">
@@ -9,7 +9,7 @@
       <product>openjdk-6</product>
       <product>openjdk-6b18</product>
     </affected>
-    <reference ref_id="USN-1010-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-October/001192.html" source="VENDOR" />
+    <reference ref_id="USN-1010-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-October/001207.html" source="VENDOR" />
     <reference ref_id="CVE-2009-3555" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-3555" source="CVE" />
     <reference ref_id="CVE-2010-3541" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-3541" source="CVE" />
     <reference ref_id="CVE-2010-3548" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-3548" source="CVE" />

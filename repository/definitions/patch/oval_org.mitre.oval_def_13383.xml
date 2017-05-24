@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13383" version="7">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13383" version="21">
   <metadata>
     <title>USN-1018-1 -- openssl vulnerability</title>
     <affected family="unix">
@@ -8,7 +8,7 @@
       <platform>Ubuntu 10.04</platform>
       <product>openssl</product>
     </affected>
-    <reference ref_id="USN-1018-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-November/001201.html" source="VENDOR" />
+    <reference ref_id="USN-1018-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-November/001216.html" source="VENDOR" />
     <reference ref_id="CVE-2010-3864" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-3864" source="CVE" />
     <description>Rob Hulswit discovered a race condition in the OpenSSL TLS server extension parsing code when used within a threaded server. A remote attacker could trigger this flaw to cause a denial of service or possibly execute arbitrary code with application privileges</description>
     <oval_repository>

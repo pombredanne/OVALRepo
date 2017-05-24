@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13236" version="7">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13236" version="21">
   <metadata>
     <title>USN-915-1 -- thunderbird vulnerabilities</title>
     <affected family="unix">
@@ -8,7 +8,7 @@
       <platform>Ubuntu 9.04</platform>
       <product>thunderbird</product>
     </affected>
-    <reference ref_id="USN-915-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-March/001063.html" source="VENDOR" />
+    <reference ref_id="USN-915-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-March/001078.html" source="VENDOR" />
     <reference ref_id="CVE-2009-0689" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-0689" source="CVE" />
     <reference ref_id="CVE-2009-2463" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-2463" source="CVE" />
     <reference ref_id="CVE-2009-3075" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-3075" source="CVE" />

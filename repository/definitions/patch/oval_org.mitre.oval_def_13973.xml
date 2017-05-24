@@ -1,11 +1,11 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13973" version="10">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13973" version="24">
   <metadata>
     <title>USN-1169-1 -- apt vulnerability</title>
     <affected family="unix">
       <platform>Ubuntu 11.04</platform>
       <product>apt</product>
     </affected>
-    <reference ref_id="USN-1169-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-July/001370.html" source="VENDOR" />
+    <reference ref_id="USN-1169-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-July/001385.html" source="VENDOR" />
     <reference ref_id="CVE-2011-1829" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1829" source="CVE" />
     <description>apt: Advanced front-end for dpkg An attacker could trick APT into installing altered packages.</description>
     <oval_repository>

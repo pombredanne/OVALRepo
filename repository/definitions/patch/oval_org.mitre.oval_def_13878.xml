@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13878" version="6">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13878" version="20">
   <metadata>
     <title>USN-871-2 -- kde4libs vulnerabilities</title>
     <affected family="unix">
@@ -7,7 +7,7 @@
       <platform>Ubuntu 9.04</platform>
       <product>kde4libs</product>
     </affected>
-    <reference ref_id="USN-871-2" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-December/001013.html" source="VENDOR" />
+    <reference ref_id="USN-871-2" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-December/001028.html" source="VENDOR" />
     <description>USN-871-1 fixed vulnerabilities in KDE. This update provides the corresponding updates for KDE 4. This update also fixes a directory traversal flaw in KDE when processing help:// URLs. This issue only affected Ubuntu 8.10. Original advisory details: It was discovered that the KDE libraries could use KHTML to process an unknown MIME type. If a user or application linked against kdelibs were tricked into opening a crafted file, an attacker could potentially trigger XMLHTTPRequests to remote sites.</description>
     <oval_repository>
       <dates>

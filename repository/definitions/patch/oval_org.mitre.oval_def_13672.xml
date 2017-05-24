@@ -1,11 +1,11 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13672" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13672" version="22">
   <metadata>
     <title>USN-726-2 -- curl regression</title>
     <affected family="unix">
       <platform>Ubuntu 8.10</platform>
       <product>curl</product>
     </affected>
-    <reference ref_id="USN-726-2" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-March/000850.html" source="VENDOR" />
+    <reference ref_id="USN-726-2" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-March/000856.html" source="VENDOR" />
     <description>USN-726-1 fixed a vulnerability in curl. Due to an incomplete fix, a regression was introduced in Ubuntu 8.10 that caused certain types of URLs to fail. This update fixes the problem. We apologize for the inconvenience. Original advisory details: It was discovered that curl did not enforce any restrictions when following URL redirects. If a user or automated system were tricked into opening a URL to an untrusted server, an attacker could use redirects to gain access to arbitrary files. This update changes curl behavior to prevent following &amp;quot;file&amp;quot; URLs after a redirect.</description>
     <oval_repository>
       <dates>

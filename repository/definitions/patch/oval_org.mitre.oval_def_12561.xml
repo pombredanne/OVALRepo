@@ -1,11 +1,11 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:12561" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:12561" version="22">
   <metadata>
     <title>USN-1008-2 -- virtinst update</title>
     <affected family="unix">
       <platform>Ubuntu 10.04</platform>
       <product>virtinst</product>
     </affected>
-    <reference ref_id="USN-1008-2" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-October/001186.html" source="VENDOR" />
+    <reference ref_id="USN-1008-2" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-October/001201.html" source="VENDOR" />
     <reference ref_id="CVE-2010-2237" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-2237" source="CVE" />
     <reference ref_id="CVE-2010-2238" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-2238" source="CVE" />
     <reference ref_id="CVE-2010-2239" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-2239" source="CVE" />

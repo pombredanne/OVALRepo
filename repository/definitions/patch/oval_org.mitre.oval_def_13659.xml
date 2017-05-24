@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13659" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13659" version="23">
   <metadata>
     <title>USN-1066-1 -- python-django vulnerabilities</title>
     <affected family="unix">
@@ -7,7 +7,7 @@
       <platform>Ubuntu 10.04</platform>
       <product>python-django</product>
     </affected>
-    <reference ref_id="USN-1066-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-February/001250.html" source="VENDOR" />
+    <reference ref_id="USN-1066-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-February/001265.html" source="VENDOR" />
     <reference ref_id="CVE-2011-0696" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0696" source="CVE" />
     <reference ref_id="CVE-2011-0697" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0697" source="CVE" />
     <description>It was discovered that Django did not properly validate HTTP requests that contain an X-Requested-With header. An attacker could exploit this vulnerability to perform cross-site request forgery attacks. It was discovered that Django did not properly sanitize its input when performing file uploads, resulting in cross-site scripting vulnerabilities. With cross-site scripting vulnerabilities, if a user were tricked into viewing server output during a crafted server request, a remote attacker could exploit this to modify the contents, or steal confidential data, within the same domain</description>

@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13549" version="7">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13549" version="21">
   <metadata>
     <title>USN-911-1 -- moin vulnerabilities</title>
     <affected family="unix">
@@ -9,7 +9,7 @@
       <platform>Ubuntu 9.04</platform>
       <product>moin</product>
     </affected>
-    <reference ref_id="USN-911-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-March/001059.html" source="VENDOR" />
+    <reference ref_id="USN-911-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-March/001074.html" source="VENDOR" />
     <reference ref_id="CVE-2010-0668" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0668" source="CVE" />
     <reference ref_id="CVE-2010-0717" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0717" source="CVE" />
     <reference ref_id="CVE-2010-0669" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0669" source="CVE" />

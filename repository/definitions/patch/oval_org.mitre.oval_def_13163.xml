@@ -1,11 +1,11 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13163" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13163" version="22">
   <metadata>
     <title>USN-715-1 -- linux vulnerabilities</title>
     <affected family="unix">
       <platform>Ubuntu 8.10</platform>
       <product>linux</product>
     </affected>
-    <reference ref_id="USN-715-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-January/000834.html" source="VENDOR" />
+    <reference ref_id="USN-715-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-January/000840.html" source="VENDOR" />
     <reference ref_id="CVE-2008-5079" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-5079" source="CVE" />
     <reference ref_id="CVE-2008-5182" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-5182" source="CVE" />
     <reference ref_id="CVE-2008-5300" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-5300" source="CVE" />

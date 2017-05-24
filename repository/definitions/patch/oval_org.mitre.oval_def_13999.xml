@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13999" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13999" version="22">
   <metadata>
     <title>USN-831-1 -- openexr vulnerabilities</title>
     <affected family="unix">
@@ -7,7 +7,7 @@
       <platform>Ubuntu 9.04</platform>
       <product>openexr</product>
     </affected>
-    <reference ref_id="USN-831-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-September/000962.html" source="VENDOR" />
+    <reference ref_id="USN-831-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-September/000974.html" source="VENDOR" />
     <reference ref_id="CVE-2009-1720" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-1720" source="CVE" />
     <reference ref_id="CVE-2009-1721" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-1721" source="CVE" />
     <reference ref_id="CVE-2009-1722" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-1722" source="CVE" />

@@ -1,11 +1,11 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13860" version="7">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13860" version="21">
   <metadata>
     <title>USN-1168-1 -- linux vulnerabilities</title>
     <affected family="unix">
       <platform>Ubuntu 10.04</platform>
       <product>linux</product>
     </affected>
-    <reference ref_id="USN-1168-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-July/001375.html" source="VENDOR" />
+    <reference ref_id="USN-1168-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-July/001390.html" source="VENDOR" />
     <reference ref_id="CVE-2011-1017" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1017" source="CVE" />
     <reference ref_id="CVE-2011-1090" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1090" source="CVE" />
     <reference ref_id="CVE-2011-1163" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1163" source="CVE" />

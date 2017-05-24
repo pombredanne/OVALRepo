@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13806" version="5">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13806" version="19">
   <metadata>
     <title>USN-1101-1 -- qt4-x11 vulnerabilities</title>
     <affected family="unix">
@@ -8,7 +8,7 @@
       <platform>Ubuntu 10.04</platform>
       <product>qt4-x11</product>
     </affected>
-    <reference ref_id="USN-1101-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-April/001294.html" source="VENDOR" />
+    <reference ref_id="USN-1101-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-April/001309.html" source="VENDOR" />
     <description>It was discovered that several invalid HTTPS certificates were issued and revoked. An attacker could exploit these to perform a man in the middle attack to view sensitive information or alter encrypted communications. These were placed on the certificate blacklist to prevent their misuse.</description>
     <oval_repository>
       <dates>

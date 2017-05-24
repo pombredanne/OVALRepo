@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15277" version="10">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15277" version="24">
   <metadata>
     <title>USN-1270-1 -- Software Center vulnerability</title>
     <affected family="unix">
@@ -7,7 +7,7 @@
       <platform>Ubuntu 10.10</platform>
       <product>Software</product>
     </affected>
-    <reference ref_id="USN-1270-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-November/001486.html" source="VENDOR" />
+    <reference ref_id="USN-1270-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-November/001501.html" source="VENDOR" />
     <reference ref_id="CVE-2011-3150" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-3150" source="CVE" />
     <description>software-center: Utility for browsing, installing, and removing software An attacker could trick Software Center into installing altered packages and repositories or exposing sensitive information over the network.</description>
     <oval_repository>

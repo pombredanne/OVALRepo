@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13896" version="7">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13896" version="21">
   <metadata>
     <title>USN-1132-1 -- apturl vulnerability</title>
     <affected family="unix">
@@ -6,7 +6,7 @@
       <platform>Ubuntu 10.04</platform>
       <product>apturl</product>
     </affected>
-    <reference ref_id="USN-1132-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-May/001330.html" source="VENDOR" />
+    <reference ref_id="USN-1132-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-May/001345.html" source="VENDOR" />
     <description>apturl: installs packages using the apt protocol apturl could be made to cause your desktop to crash if it opened a very long URL.</description>
     <oval_repository>
       <dates>

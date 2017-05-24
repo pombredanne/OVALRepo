@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:12990" version="10">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:12990" version="24">
   <metadata>
     <title>USN-986-3 -- dpkg vulnerability</title>
     <affected family="unix">
@@ -9,7 +9,7 @@
       <platform>Ubuntu 9.04</platform>
       <product>dpkg</product>
     </affected>
-    <reference ref_id="USN-986-3" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-September/001162.html" source="VENDOR" />
+    <reference ref_id="USN-986-3" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-September/001177.html" source="VENDOR" />
     <reference ref_id="CVE-2010-0405" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0405" source="CVE" />
     <description>USN-986-1 fixed vulnerabilities in bzip2. dpkg statically links against libbz2 and needed to be rebuilt to use the updated libbz2. Original advisory details: An integer overflow was discovered in bzip2. If a user or automated system were tricked into decompressing a crafted bz2 file, an attacker could cause bzip2 or any application linked against libbz2 to crash or possibly execute code as the user running the program.</description>
     <oval_repository>

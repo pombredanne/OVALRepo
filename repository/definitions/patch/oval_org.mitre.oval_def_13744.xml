@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13744" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13744" version="22">
   <metadata>
     <title>USN-1148-1 -- libmodplug vulnerabilities</title>
     <affected family="unix">
@@ -7,7 +7,7 @@
       <platform>Ubuntu 10.10</platform>
       <product>libmodplug</product>
     </affected>
-    <reference ref_id="USN-1148-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-June/001351.html" source="VENDOR" />
+    <reference ref_id="USN-1148-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-June/001366.html" source="VENDOR" />
     <reference ref_id="CVE-2011-1574" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1574" source="CVE" />
     <reference ref_id="CVE-2011-1761" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1761" source="CVE" />
     <description>libmodplug: Library for mod music based on ModPlug libmodplug could be made to run programs as your login if it opened a specially crafted file.</description>

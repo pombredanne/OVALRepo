@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15133" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15133" version="22">
   <metadata>
     <title>USN-1317-1 -- Ghostscript vulnerabilities</title>
     <affected family="unix">
@@ -7,7 +7,7 @@
       <platform>Ubuntu 10.04</platform>
       <product>Ghostscript</product>
     </affected>
-    <reference ref_id="USN-1317-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2012-January/001537.html" source="VENDOR" />
+    <reference ref_id="USN-1317-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2012-January/001552.html" source="VENDOR" />
     <reference ref_id="CVE-2008-3520" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-3520" source="CVE" />
     <reference ref_id="CVE-2008-3522" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-3522" source="CVE" />
     <reference ref_id="CVE-2009-3743" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-3743" source="CVE" />

@@ -1,11 +1,11 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:14084" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:14084" version="23">
   <metadata>
     <title>USN-1122-3 -- thunderbird regression</title>
     <affected family="unix">
       <platform>Ubuntu 11.04</platform>
       <product>thunderbird</product>
     </affected>
-    <reference ref_id="USN-1122-3" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-June/001347.html" source="VENDOR" />
+    <reference ref_id="USN-1122-3" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-June/001362.html" source="VENDOR" />
     <reference ref_id="CVE-2011-0081" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0081" source="CVE" />
     <reference ref_id="CVE-2011-0069" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0069" source="CVE" />
     <reference ref_id="CVE-2011-0070" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0070" source="CVE" />

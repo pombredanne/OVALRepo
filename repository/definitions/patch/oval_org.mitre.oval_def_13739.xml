@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13739" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13739" version="22">
   <metadata>
     <title>USN-1056-1 -- openoffice.org vulnerabilities</title>
     <affected family="unix">
@@ -8,7 +8,7 @@
       <platform>Ubuntu 10.04</platform>
       <product>openoffice.org</product>
     </affected>
-    <reference ref_id="USN-1056-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-February/001240.html" source="VENDOR" />
+    <reference ref_id="USN-1056-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-February/001255.html" source="VENDOR" />
     <reference ref_id="CVE-2010-2935" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-2935" source="CVE" />
     <reference ref_id="CVE-2010-2936" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-2936" source="CVE" />
     <reference ref_id="CVE-2010-3450" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-3450" source="CVE" />

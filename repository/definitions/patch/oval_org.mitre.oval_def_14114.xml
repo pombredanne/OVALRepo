@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:14114" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:14114" version="22">
   <metadata>
     <title>USN-1154-1 -- openjdk-6, openjdk-6b18 vulnerabilities</title>
     <affected family="unix">
@@ -8,7 +8,7 @@
       <product>openjdk-6</product>
       <product>openjdk-6b18</product>
     </affected>
-    <reference ref_id="USN-1154-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-June/001355.html" source="VENDOR" />
+    <reference ref_id="USN-1154-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-June/001370.html" source="VENDOR" />
     <reference ref_id="CVE-2011-0815" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0815" source="CVE" />
     <reference ref_id="CVE-2011-0822" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0822" source="CVE" />
     <reference ref_id="CVE-2011-0862" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0862" source="CVE" />

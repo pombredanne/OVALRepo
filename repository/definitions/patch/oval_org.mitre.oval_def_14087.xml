@@ -1,11 +1,11 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:14087" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:14087" version="22">
   <metadata>
     <title>USN-1161-1 -- linux-ec2 vulnerabilities</title>
     <affected family="unix">
       <platform>Ubuntu 10.04</platform>
       <product>linux-ec2</product>
     </affected>
-    <reference ref_id="USN-1161-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-July/001371.html" source="VENDOR" />
+    <reference ref_id="USN-1161-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-July/001386.html" source="VENDOR" />
     <reference ref_id="CVE-2010-3881" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-3881" source="CVE" />
     <reference ref_id="CVE-2011-1017" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1017" source="CVE" />
     <reference ref_id="CVE-2011-1090" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1090" source="CVE" />

@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:14952" version="9">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:14952" version="23">
   <metadata>
     <title>USN-1255-1 -- libmodplug vulnerabilities</title>
     <affected family="unix">
@@ -8,7 +8,7 @@
       <platform>Ubuntu 10.10</platform>
       <product>libmodplug</product>
     </affected>
-    <reference ref_id="USN-1255-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-November/001472.html" source="VENDOR" />
+    <reference ref_id="USN-1255-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-November/001487.html" source="VENDOR" />
     <reference ref_id="CVE-2011-2911" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2911" source="CVE" />
     <reference ref_id="CVE-2011-2912" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2912" source="CVE" />
     <reference ref_id="CVE-2011-2913" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2913" source="CVE" />

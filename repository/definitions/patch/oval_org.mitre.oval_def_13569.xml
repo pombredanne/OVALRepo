@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13569" version="6">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13569" version="20">
   <metadata>
     <title>USN-775-2 -- quagga regression</title>
     <affected family="unix">
@@ -7,7 +7,7 @@
       <platform>Ubuntu 8.10</platform>
       <product>quagga</product>
     </affected>
-    <reference ref_id="USN-775-2" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-June/000914.html" source="VENDOR" />
+    <reference ref_id="USN-775-2" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-June/000920.html" source="VENDOR" />
     <description>USN-775-1 fixed vulnerabilities in Quagga. The preventative fixes introduced in Quagga prior to Ubuntu 9.04 could result in BGP service failures. This update fixes the problem. We apologize for the inconvenience. Original advisory details: It was discovered that the BGP service in Quagga did not correctly handle certain AS paths containing 4-byte ASNs. An authenticated remote attacker could exploit this flaw to cause bgpd to abort, leading to a denial of service.</description>
     <oval_repository>
       <dates>

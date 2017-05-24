@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13054" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13054" version="22">
   <metadata>
     <title>USN-969-1 -- pcsc-lite vulnerability</title>
     <affected family="unix">
@@ -7,7 +7,7 @@
       <platform>Ubuntu 9.10</platform>
       <product>pcsc-lite</product>
     </affected>
-    <reference ref_id="USN-969-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-August/001136.html" source="VENDOR" />
+    <reference ref_id="USN-969-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-August/001151.html" source="VENDOR" />
     <reference ref_id="CVE-2009-4901" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-4901" source="CVE" />
     <reference ref_id="CVE-2009-4902" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-4902" source="CVE" />
     <reference ref_id="CVE-2010-0407" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0407" source="CVE" />

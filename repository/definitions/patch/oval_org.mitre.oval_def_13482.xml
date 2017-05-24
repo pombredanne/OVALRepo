@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13482" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13482" version="22">
   <metadata>
     <title>USN-776-1 -- kvm vulnerabilities</title>
     <affected family="unix">
@@ -6,7 +6,7 @@
       <platform>Ubuntu 8.04</platform>
       <product>kvm</product>
     </affected>
-    <reference ref_id="USN-776-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-May/000903.html" source="VENDOR" />
+    <reference ref_id="USN-776-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-May/000909.html" source="VENDOR" />
     <reference ref_id="CVE-2008-1945" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-1945" source="CVE" />
     <reference ref_id="CVE-2008-2004" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-2004" source="CVE" />
     <reference ref_id="CVE-2008-2382" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-2382" source="CVE" />

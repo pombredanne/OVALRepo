@@ -1,11 +1,11 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15445" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15445" version="22">
   <metadata>
     <title>USN-1384-1 -- Linux kernel (Oneiric backport) vulnerabilities</title>
     <affected family="unix">
       <platform>Ubuntu 10.04</platform>
       <product>Linux</product>
     </affected>
-    <reference ref_id="USN-1384-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2012-March/001615.html" source="VENDOR" />
+    <reference ref_id="USN-1384-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2012-March/001630.html" source="VENDOR" />
     <reference ref_id="CVE-2011-4097" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4097" source="CVE" />
     <reference ref_id="CVE-2011-4127" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4127" source="CVE" />
     <reference ref_id="CVE-2011-4622" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4622" source="CVE" />

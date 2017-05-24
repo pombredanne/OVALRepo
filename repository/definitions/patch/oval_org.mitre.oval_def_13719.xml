@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13719" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13719" version="22">
   <metadata>
     <title>USN-786-1 -- apr-util vulnerabilities</title>
     <affected family="unix">
@@ -7,7 +7,7 @@
       <platform>Ubuntu 9.04</platform>
       <product>apr-util</product>
     </affected>
-    <reference ref_id="USN-786-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-June/000913.html" source="VENDOR" />
+    <reference ref_id="USN-786-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-June/000919.html" source="VENDOR" />
     <reference ref_id="CVE-2009-0023" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-0023" source="CVE" />
     <reference ref_id="CVE-2009-1955" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-1955" source="CVE" />
     <reference ref_id="CVE-2009-1956" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-1956" source="CVE" />

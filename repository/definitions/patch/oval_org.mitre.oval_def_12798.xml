@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:12798" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:12798" version="22">
   <metadata>
     <title>USN-1053-1 -- subversion vulnerabilities</title>
     <affected family="unix">
@@ -9,7 +9,7 @@
       <platform>Ubuntu 6.06</platform>
       <product>subversion</product>
     </affected>
-    <reference ref_id="USN-1053-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-February/001237.html" source="VENDOR" />
+    <reference ref_id="USN-1053-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-February/001252.html" source="VENDOR" />
     <reference ref_id="CVE-2007-2448" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2448" source="CVE" />
     <reference ref_id="CVE-2010-3315" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-3315" source="CVE" />
     <reference ref_id="CVE-2010-4539" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-4539" source="CVE" />

@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:14972" version="10">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:14972" version="24">
   <metadata>
     <title>USN-1352-1 -- Software Properties vulnerability</title>
     <affected family="unix">
@@ -8,7 +8,7 @@
       <platform>Ubuntu 10.10</platform>
       <product>Software</product>
     </affected>
-    <reference ref_id="USN-1352-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2012-January/001572.html" source="VENDOR" />
+    <reference ref_id="USN-1352-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2012-January/001587.html" source="VENDOR" />
     <reference ref_id="CVE-2011-4407" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4407" source="CVE" />
     <description>software-properties: manage the repositories that you install software from Software Properties could be tricked into installing arbitrary PPA GPG keys.</description>
     <oval_repository>

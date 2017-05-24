@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:14934" version="7">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:14934" version="21">
   <metadata>
     <title>USN-1397-1 -- MySQL vulnerabilities</title>
     <affected family="unix">
@@ -9,7 +9,7 @@
       <platform>Ubuntu 10.10</platform>
       <product>MySQL</product>
     </affected>
-    <reference ref_id="USN-1397-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2012-March/001627.html" source="VENDOR" />
+    <reference ref_id="USN-1397-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2012-March/001642.html" source="VENDOR" />
     <reference ref_id="CVE-2007-5925" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-5925" source="CVE" />
     <reference ref_id="CVE-2008-3963" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-3963" source="CVE" />
     <reference ref_id="CVE-2008-4098" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-4098" source="CVE" />

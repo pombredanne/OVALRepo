@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13150" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13150" version="22">
   <metadata>
     <title>USN-923-1 -- openjdk-6 vulnerabilities</title>
     <affected family="unix">
@@ -8,7 +8,7 @@
       <platform>Ubuntu 9.04</platform>
       <product>openjdk-6</product>
     </affected>
-    <reference ref_id="USN-923-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-April/001070.html" source="VENDOR" />
+    <reference ref_id="USN-923-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-April/001085.html" source="VENDOR" />
     <reference ref_id="CVE-2009-3555" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-3555" source="CVE" />
     <reference ref_id="CVE-2010-0082" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0082" source="CVE" />
     <reference ref_id="CVE-2010-0084" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0084" source="CVE" />

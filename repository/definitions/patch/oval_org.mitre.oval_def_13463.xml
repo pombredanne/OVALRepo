@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13463" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13463" version="22">
   <metadata>
     <title>USN-999-1 -- krb5 vulnerability</title>
     <affected family="unix">
@@ -6,7 +6,7 @@
       <platform>Ubuntu 10.04</platform>
       <product>krb5</product>
     </affected>
-    <reference ref_id="USN-999-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-October/001173.html" source="VENDOR" />
+    <reference ref_id="USN-999-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-October/001188.html" source="VENDOR" />
     <reference ref_id="CVE-2010-1322" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-1322" source="CVE" />
     <description>Mike Roszkowski discovered that the Kerberos KDC did not correctly validate the contents of certain messages. If an authenticated remote attacker sent specially crafted TGS requests, the KDC service would crash, leading to a denial of service.</description>
     <oval_repository>

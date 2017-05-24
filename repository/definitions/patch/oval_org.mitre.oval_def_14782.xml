@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:14782" version="6">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:14782" version="20">
   <metadata>
     <title>USN-1197-4 -- NSS vulnerability</title>
     <affected family="unix">
@@ -7,7 +7,7 @@
       <platform>Ubuntu 10.10</platform>
       <product>NSS</product>
     </affected>
-    <reference ref_id="USN-1197-4" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-September/001408.html" source="VENDOR" />
+    <reference ref_id="USN-1197-4" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-September/001423.html" source="VENDOR" />
     <description>nss: Network Security Service libraries Details: USN-1197-1 and USN-1197-3 addressed an issue in Firefox and Xulrunner pertaining to the Dutch Certificate Authority DigiNotar mis-issuing fraudulent certificates. This update provides the corresponding update for the Network Security Service libraries . Original advisory A certificate authority mis-issued fraudulent certificates.</description>
     <oval_repository>
       <dates>

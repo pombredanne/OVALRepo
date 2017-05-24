@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13944" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13944" version="22">
   <metadata>
     <title>USN-861-1 -- libvorbis vulnerabilities</title>
     <affected family="unix">
@@ -8,7 +8,7 @@
       <platform>Ubuntu 9.04</platform>
       <product>libvorbis</product>
     </affected>
-    <reference ref_id="USN-861-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-November/001002.html" source="VENDOR" />
+    <reference ref_id="USN-861-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-November/001017.html" source="VENDOR" />
     <reference ref_id="CVE-2008-2009" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-2009" source="CVE" />
     <reference ref_id="CVE-2009-3379" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-3379" source="CVE" />
     <description>It was discovered that libvorbis did not correctly handle ogg files with underpopulated Huffman trees. If a user were tricked into opening a specially crafted ogg file with an application that uses libvorbis, an attacker could cause a denial of service. It was discovered that libvorbis did not correctly handle certain malformed ogg files. If a user were tricked into opening a specially crafted ogg file with an application that uses libvorbis, an attacker could cause a denial of service or possibly execute arbitrary code with the user�s privileges</description>

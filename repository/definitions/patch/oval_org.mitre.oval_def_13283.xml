@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13283" version="7">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13283" version="21">
   <metadata>
     <title>USN-877-1 -- firefox-3.0, xulrunner-1.9 regression</title>
     <affected family="unix">
@@ -8,7 +8,7 @@
       <product>firefox-3.0</product>
       <product>xulrunner-1.9</product>
     </affected>
-    <reference ref_id="USN-877-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-January/001022.html" source="VENDOR" />
+    <reference ref_id="USN-877-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-January/001037.html" source="VENDOR" />
     <reference ref_id="CVE-2009-3979" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-3979" source="CVE" />
     <reference ref_id="CVE-2009-3981" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-3981" source="CVE" />
     <reference ref_id="CVE-2009-3986" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-3986" source="CVE" />

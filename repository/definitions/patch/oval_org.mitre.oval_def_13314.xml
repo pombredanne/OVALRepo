@@ -1,11 +1,11 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13314" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13314" version="22">
   <metadata>
     <title>USN-1083-1 -- linux-lts-backport-maverick vulnerabilities</title>
     <affected family="unix">
       <platform>Ubuntu 10.04</platform>
       <product>linux-lts-backport-maverick</product>
     </affected>
-    <reference ref_id="USN-1083-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-March/001269.html" source="VENDOR" />
+    <reference ref_id="USN-1083-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-March/001284.html" source="VENDOR" />
     <reference ref_id="CVE-2010-3904" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-3904" source="CVE" />
     <reference ref_id="CVE-2010-3848" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-3848" source="CVE" />
     <reference ref_id="CVE-2010-3849" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-3849" source="CVE" />

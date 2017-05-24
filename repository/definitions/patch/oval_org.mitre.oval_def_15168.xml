@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15168" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15168" version="22">
   <metadata>
     <title>USN-1197-5 -- CA Certificates vulnerability</title>
     <affected family="unix">
@@ -7,7 +7,7 @@
       <platform>Ubuntu 10.10</platform>
       <product>CA</product>
     </affected>
-    <reference ref_id="USN-1197-5" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-September/001409.html" source="VENDOR" />
+    <reference ref_id="USN-1197-5" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-September/001424.html" source="VENDOR" />
     <description>ca-certificates: Common CA certificates Details: USN-1197-1 addressed an issue in Firefox and Xulrunner pertaining to the Dutch Certificate Authority DigiNotar mis-issuing fraudulent certificates. This update provides the corresponding update for ca-certificates. Original advisory A certificate authority mis-issued fraudulent certificates.</description>
     <oval_repository>
       <dates>

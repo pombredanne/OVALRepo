@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15446" version="7">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15446" version="21">
   <metadata>
     <title>USN-1334-1 -- libxml2 vulnerabilities</title>
     <affected family="unix">
@@ -9,7 +9,7 @@
       <platform>Ubuntu 10.10</platform>
       <product>libxml2</product>
     </affected>
-    <reference ref_id="USN-1334-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2012-January/001556.html" source="VENDOR" />
+    <reference ref_id="USN-1334-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2012-January/001571.html" source="VENDOR" />
     <reference ref_id="CVE-2011-0216" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0216" source="CVE" />
     <reference ref_id="CVE-2011-2821" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2821" source="CVE" />
     <reference ref_id="CVE-2011-2834" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2834" source="CVE" />

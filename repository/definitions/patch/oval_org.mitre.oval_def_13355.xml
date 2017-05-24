@@ -1,11 +1,11 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13355" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13355" version="23">
   <metadata>
     <title>USN-973-1 -- koffice vulnerabilities</title>
     <affected family="unix">
       <platform>Ubuntu 9.04</platform>
       <product>koffice</product>
     </affected>
-    <reference ref_id="USN-973-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-August/001142.html" source="VENDOR" />
+    <reference ref_id="USN-973-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-August/001157.html" source="VENDOR" />
     <reference ref_id="CVE-2009-0146" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-0146" source="CVE" />
     <reference ref_id="CVE-2009-0147" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-0147" source="CVE" />
     <reference ref_id="CVE-2009-0166" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-0166" source="CVE" />

@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13882" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13882" version="22">
   <metadata>
     <title>USN-815-1 -- libxml2 vulnerabilities</title>
     <affected family="unix">
@@ -8,7 +8,7 @@
       <platform>Ubuntu 8.10</platform>
       <product>libxml2</product>
     </affected>
-    <reference ref_id="USN-815-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-August/000949.html" source="VENDOR" />
+    <reference ref_id="USN-815-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-August/000955.html" source="VENDOR" />
     <reference ref_id="CVE-2009-2414" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-2414" source="CVE" />
     <reference ref_id="CVE-2009-2416" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-2416" source="CVE" />
     <reference ref_id="CVE-2008-3529" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-3529" source="CVE" />

@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15207" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15207" version="22">
   <metadata>
     <title>USN-1296-1 -- acpid vulnerabilities</title>
     <affected family="unix">
@@ -8,7 +8,7 @@
       <platform>Ubuntu 10.10</platform>
       <product>acpid</product>
     </affected>
-    <reference ref_id="USN-1296-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-December/001515.html" source="VENDOR" />
+    <reference ref_id="USN-1296-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-December/001530.html" source="VENDOR" />
     <reference ref_id="CVE-2011-2777" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2777" source="CVE" />
     <reference ref_id="CVE-2011-4578" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4578" source="CVE" />
     <description>acpid: Advanced Configuration and Power Interface daemon Several security issues were fixed in acpid.</description>

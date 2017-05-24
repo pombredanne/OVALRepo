@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13273" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13273" version="22">
   <metadata>
     <title>USN-906-1 -- cups, cupsys vulnerabilities</title>
     <affected family="unix">
@@ -10,7 +10,7 @@
       <product>cups</product>
       <product>cupsys</product>
     </affected>
-    <reference ref_id="USN-906-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-March/001054.html" source="VENDOR" />
+    <reference ref_id="USN-906-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-March/001069.html" source="VENDOR" />
     <reference ref_id="CVE-2009-3553" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-3553" source="CVE" />
     <reference ref_id="CVE-2010-0302" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0302" source="CVE" />
     <reference ref_id="CVE-2010-0393" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0393" source="CVE" />

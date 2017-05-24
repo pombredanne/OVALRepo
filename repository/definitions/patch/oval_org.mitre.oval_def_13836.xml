@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13836" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13836" version="22">
   <metadata>
     <title>USN-814-1 -- openjdk-6 vulnerabilities</title>
     <affected family="unix">
@@ -6,7 +6,7 @@
       <platform>Ubuntu 9.04</platform>
       <product>openjdk-6</product>
     </affected>
-    <reference ref_id="USN-814-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-August/000948.html" source="VENDOR" />
+    <reference ref_id="USN-814-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-August/000954.html" source="VENDOR" />
     <reference ref_id="CVE-2009-0217" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-0217" source="CVE" />
     <reference ref_id="CVE-2009-1896" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-1896" source="CVE" />
     <reference ref_id="CVE-2009-2475" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-2475" source="CVE" />

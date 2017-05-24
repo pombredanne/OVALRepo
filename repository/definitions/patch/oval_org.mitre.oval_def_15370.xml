@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15370" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15370" version="22">
   <metadata>
     <title>USN-1206-1 -- librsvg vulnerability</title>
     <affected family="unix">
@@ -7,7 +7,7 @@
       <platform>Ubuntu 10.10</platform>
       <product>librsvg</product>
     </affected>
-    <reference ref_id="USN-1206-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-September/001416.html" source="VENDOR" />
+    <reference ref_id="USN-1206-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-September/001431.html" source="VENDOR" />
     <reference ref_id="CVE-2011-3146" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-3146" source="CVE" />
     <description>librsvg: Rendering library for SVG files SVG image rendering library has had flaws fixed.</description>
     <oval_repository>

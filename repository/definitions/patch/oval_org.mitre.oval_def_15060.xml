@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15060" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15060" version="22">
   <metadata>
     <title>USN-1335-1 -- t1lib vulnerabilities</title>
     <affected family="unix">
@@ -8,7 +8,7 @@
       <platform>Ubuntu 10.10</platform>
       <product>t1lib</product>
     </affected>
-    <reference ref_id="USN-1335-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2012-January/001555.html" source="VENDOR" />
+    <reference ref_id="USN-1335-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2012-January/001570.html" source="VENDOR" />
     <reference ref_id="CVE-2010-2642" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-2642" source="CVE" />
     <reference ref_id="CVE-2011-0433" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0433" source="CVE" />
     <reference ref_id="CVE-2011-1552" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1552" source="CVE" />

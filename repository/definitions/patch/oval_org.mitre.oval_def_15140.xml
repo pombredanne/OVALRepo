@@ -1,11 +1,11 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15140" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15140" version="22">
   <metadata>
     <title>USN-1343-1 -- Thunderbird vulnerabilities</title>
     <affected family="unix">
       <platform>Ubuntu 11.10</platform>
       <product>Thunderbird</product>
     </affected>
-    <reference ref_id="USN-1343-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2012-January/001563.html" source="VENDOR" />
+    <reference ref_id="USN-1343-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2012-January/001578.html" source="VENDOR" />
     <reference ref_id="CVE-2011-3660" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-3660" source="CVE" />
     <reference ref_id="CVE-2011-3661" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-3661" source="CVE" />
     <reference ref_id="CVE-2011-3658" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-3658" source="CVE" />

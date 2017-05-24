@@ -1,11 +1,11 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13779" version="6">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13779" version="20">
   <metadata>
     <title>USN-756-1 -- clamav vulnerability</title>
     <affected family="unix">
       <platform>Ubuntu 8.10</platform>
       <product>clamav</product>
     </affected>
-    <reference ref_id="USN-756-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-April/000882.html" source="VENDOR" />
+    <reference ref_id="USN-756-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-April/000888.html" source="VENDOR" />
     <description>It was discovered that ClamAV did not properly verify buffers when processing Upack files. A remote attacker could send a crafted file and cause a denial of service via application crash.</description>
     <oval_repository>
       <dates>

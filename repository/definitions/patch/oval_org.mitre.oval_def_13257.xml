@@ -1,11 +1,11 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13257" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13257" version="22">
   <metadata>
     <title>USN-700-2 -- perl regression</title>
     <affected family="unix">
       <platform>Ubuntu 8.04</platform>
       <product>perl</product>
     </affected>
-    <reference ref_id="USN-700-2" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-January/000828.html" source="VENDOR" />
+    <reference ref_id="USN-700-2" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-January/000834.html" source="VENDOR" />
     <reference ref_id="CVE-2007-4829" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-4829" source="CVE" />
     <reference ref_id="CVE-2008-1927" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-1927" source="CVE" />
     <reference ref_id="CVE-2008-5302" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-5302" source="CVE" />

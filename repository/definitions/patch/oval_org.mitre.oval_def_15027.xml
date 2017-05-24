@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15027" version="7">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15027" version="21">
   <metadata>
     <title>USN-1207-1 -- CUPS vulnerabilities</title>
     <affected family="unix">
@@ -8,7 +8,7 @@
       <platform>Ubuntu 10.10</platform>
       <product>CUPS</product>
     </affected>
-    <reference ref_id="USN-1207-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-September/001417.html" source="VENDOR" />
+    <reference ref_id="USN-1207-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-September/001432.html" source="VENDOR" />
     <reference ref_id="CVE-2011-2896" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2896" source="CVE" />
     <reference ref_id="CVE-2011-3170" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-3170" source="CVE" />
     <description>cups: Common UNIX Printing System - server - cupsys: Common UNIX Printing System - server An attacker could send crafted print jobs to CUPS and cause it to crash or run programs.</description>

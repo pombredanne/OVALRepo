@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:14027" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:14027" version="22">
   <metadata>
     <title>USN-1194-1 -- foomatic-filters vulnerabilities</title>
     <affected family="unix">
@@ -8,7 +8,7 @@
       <platform>Ubuntu 10.10</platform>
       <product>foomatic-filters</product>
     </affected>
-    <reference ref_id="USN-1194-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-August/001400.html" source="VENDOR" />
+    <reference ref_id="USN-1194-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-August/001415.html" source="VENDOR" />
     <reference ref_id="CVE-2011-2697" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2697" source="CVE" />
     <reference ref_id="CVE-2011-2964" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2964" source="CVE" />
     <description>foomatic-filters: OpenPrinting printer support - filters An attacker could send crafted input to Foomatic and cause it to run programs as the &amp;quot;lp&amp;quot; user.</description>

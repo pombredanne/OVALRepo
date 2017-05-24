@@ -1,11 +1,11 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:14968" version="7">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:14968" version="21">
   <metadata>
     <title>USN-1291-1 -- Linux kernel vulnerabilities</title>
     <affected family="unix">
       <platform>Ubuntu 8.04</platform>
       <product>Linux</product>
     </affected>
-    <reference ref_id="USN-1291-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-December/001510.html" source="VENDOR" />
+    <reference ref_id="USN-1291-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-December/001525.html" source="VENDOR" />
     <reference ref_id="CVE-2011-4077" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4077" source="CVE" />
     <reference ref_id="CVE-2011-4132" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4132" source="CVE" />
     <reference ref_id="CVE-2011-4330" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4330" source="CVE" />

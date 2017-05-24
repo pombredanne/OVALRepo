@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13729" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13729" version="23">
   <metadata>
     <title>USN-720-1 -- php5 vulnerabilities</title>
     <affected family="unix">
@@ -8,7 +8,7 @@
       <platform>Ubuntu 8.10</platform>
       <product>php5</product>
     </affected>
-    <reference ref_id="USN-720-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-February/000840.html" source="VENDOR" />
+    <reference ref_id="USN-720-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-February/000846.html" source="VENDOR" />
     <reference ref_id="CVE-2007-5900" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-5900" source="CVE" />
     <reference ref_id="CVE-2008-3658" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-3658" source="CVE" />
     <reference ref_id="CVE-2008-3659" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-3659" source="CVE" />

@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:14168" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:14168" version="22">
   <metadata>
     <title>USN-1196-1 -- ecryptfs-utils vulnerability</title>
     <affected family="unix">
@@ -7,7 +7,7 @@
       <platform>Ubuntu 10.10</platform>
       <product>ecryptfs-utils</product>
     </affected>
-    <reference ref_id="USN-1196-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-August/001402.html" source="VENDOR" />
+    <reference ref_id="USN-1196-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-August/001417.html" source="VENDOR" />
     <reference ref_id="CVE-2011-3145" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-3145" source="CVE" />
     <description>ecryptfs-utils: ecryptfs cryptographic filesystem An attacker could use eCryptfs to unmount arbitrary locations and cause a denial of service.</description>
     <oval_repository>

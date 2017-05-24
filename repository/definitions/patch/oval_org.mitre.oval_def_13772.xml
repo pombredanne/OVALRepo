@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13772" version="7">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13772" version="22">
   <metadata>
     <title>USN-1109-1 -- gimp vulnerabilities</title>
     <affected family="unix">
@@ -8,7 +8,7 @@
       <platform>Ubuntu 10.04</platform>
       <product>gimp</product>
     </affected>
-    <reference ref_id="USN-1109-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-April/001303.html" source="VENDOR" />
+    <reference ref_id="USN-1109-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-April/001318.html" source="VENDOR" />
     <reference ref_id="CVE-2010-4540" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-4540" source="CVE" />
     <reference ref_id="CVE-2010-4541" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-4541" source="CVE" />
     <reference ref_id="CVE-2010-4542" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-4542" source="CVE" />

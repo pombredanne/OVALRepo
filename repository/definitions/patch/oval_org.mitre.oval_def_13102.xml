@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13102" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13102" version="22">
   <metadata>
     <title>USN-926-1 -- clamav vulnerabilities</title>
     <affected family="unix">
@@ -7,7 +7,7 @@
       <platform>Ubuntu 9.04</platform>
       <product>clamav</product>
     </affected>
-    <reference ref_id="USN-926-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-April/001073.html" source="VENDOR" />
+    <reference ref_id="USN-926-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-April/001088.html" source="VENDOR" />
     <reference ref_id="CVE-2010-0098" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0098" source="CVE" />
     <reference ref_id="CVE-2010-1311" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-1311" source="CVE" />
     <description>It was discovered that ClamAV did not properly verify its input when processing CAB files. A remote attacker could send a specially crafted CAB file to evade malware detection. It was discovered that ClamAV did not properly verify its input when processing CAB files. A remote attacker could send a specially crafted CAB file and cause a denial of service via application crash.</description>

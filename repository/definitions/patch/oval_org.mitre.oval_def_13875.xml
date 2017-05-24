@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13875" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13875" version="23">
   <metadata>
     <title>USN-826-1 -- mono vulnerabilities</title>
     <affected family="unix">
@@ -7,7 +7,7 @@
       <platform>Ubuntu 9.04</platform>
       <product>mono</product>
     </affected>
-    <reference ref_id="USN-826-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-August/000968.html" source="VENDOR" />
+    <reference ref_id="USN-826-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-August/000967.html" source="VENDOR" />
     <reference ref_id="CVE-2009-0217" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-0217" source="CVE" />
     <reference ref_id="CVE-2008-3422" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-3422" source="CVE" />
     <reference ref_id="CVE-2008-3906" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-3906" source="CVE" />

@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15218" version="7">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15218" version="21">
   <metadata>
     <title>USN-1372-1 -- Puppet vulnerabilities</title>
     <affected family="unix">
@@ -8,7 +8,7 @@
       <platform>Ubuntu 10.10</platform>
       <product>Puppet</product>
     </affected>
-    <reference ref_id="USN-1372-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2012-February/001601.html" source="VENDOR" />
+    <reference ref_id="USN-1372-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2012-February/001616.html" source="VENDOR" />
     <reference ref_id="CVE-2012-1053" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-1053" source="CVE" />
     <reference ref_id="CVE-2012-1054" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-1054" source="CVE" />
     <description>puppet: Centralized configuration management Puppet could be made to overwrite files and run programs with administrator privileges.</description>

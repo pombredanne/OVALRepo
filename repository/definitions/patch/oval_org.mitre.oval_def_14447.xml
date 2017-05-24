@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:14447" version="6">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:14447" version="20">
   <metadata>
     <title>USN-1197-1 -- Firefox and Xulrunner vulnerability</title>
     <affected family="unix">
@@ -7,7 +7,7 @@
       <platform>Ubuntu 10.10</platform>
       <product>Firefox</product>
     </affected>
-    <reference ref_id="USN-1197-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-September/001404.html" source="VENDOR" />
+    <reference ref_id="USN-1197-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-September/001419.html" source="VENDOR" />
     <description>firefox: Mozilla Open Source web browser - xulrunner-1.9.2: Mozilla Gecko runtime environment A certificate authority issued fraudulent certificates.</description>
     <oval_repository>
       <dates>

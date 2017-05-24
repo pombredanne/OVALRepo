@@ -1,11 +1,11 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:14894" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:14894" version="22">
   <metadata>
     <title>USN-1300-1 -- Linux kernel (FSL-IMX51) vulnerabilities</title>
     <affected family="unix">
       <platform>Ubuntu 10.04</platform>
       <product>Linux</product>
     </affected>
-    <reference ref_id="USN-1300-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-December/001519.html" source="VENDOR" />
+    <reference ref_id="USN-1300-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-December/001534.html" source="VENDOR" />
     <reference ref_id="CVE-2011-4077" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4077" source="CVE" />
     <reference ref_id="CVE-2011-4132" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4132" source="CVE" />
     <reference ref_id="CVE-2011-4330" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4330" source="CVE" />

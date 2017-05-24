@@ -1,11 +1,11 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:14884" version="7">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:14884" version="21">
   <metadata>
     <title>USN-1363-1 -- Linux kernel vulnerabilities</title>
     <affected family="unix">
       <platform>Ubuntu 11.10</platform>
       <product>Linux</product>
     </affected>
-    <reference ref_id="USN-1363-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2012-February/001588.html" source="VENDOR" />
+    <reference ref_id="USN-1363-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2012-February/001603.html" source="VENDOR" />
     <reference ref_id="CVE-2011-4097" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4097" source="CVE" />
     <reference ref_id="CVE-2011-4622" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4622" source="CVE" />
     <reference ref_id="CVE-2012-0038" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0038" source="CVE" />

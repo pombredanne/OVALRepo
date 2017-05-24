@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:12923" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:12923" version="23">
   <metadata>
     <title>USN-902-1 -- pidgin vulnerabilities</title>
     <affected family="unix">
@@ -8,7 +8,7 @@
       <platform>Ubuntu 9.04</platform>
       <product>pidgin</product>
     </affected>
-    <reference ref_id="USN-902-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-February/001050.html" source="VENDOR" />
+    <reference ref_id="USN-902-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-February/001065.html" source="VENDOR" />
     <reference ref_id="CVE-2010-0277" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0277" source="CVE" />
     <reference ref_id="CVE-2010-0420" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0420" source="CVE" />
     <reference ref_id="CVE-2010-0423" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0423" source="CVE" />

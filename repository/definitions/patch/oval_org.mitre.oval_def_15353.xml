@@ -1,11 +1,11 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15353" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15353" version="22">
   <metadata>
     <title>USN-1325-1 -- Linux kernel (OMAP4) vulnerabilities</title>
     <affected family="unix">
       <platform>Ubuntu 10.10</platform>
       <product>Linux</product>
     </affected>
-    <reference ref_id="USN-1325-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2012-January/001546.html" source="VENDOR" />
+    <reference ref_id="USN-1325-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2012-January/001561.html" source="VENDOR" />
     <reference ref_id="CVE-2011-1162" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1162" source="CVE" />
     <reference ref_id="CVE-2011-2203" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2203" source="CVE" />
     <reference ref_id="CVE-2011-3353" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-3353" source="CVE" />

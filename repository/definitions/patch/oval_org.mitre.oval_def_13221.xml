@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13221" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13221" version="22">
   <metadata>
     <title>USN-1051-1 -- hplip vulnerability</title>
     <affected family="unix">
@@ -8,7 +8,7 @@
       <platform>Ubuntu 10.04</platform>
       <product>hplip</product>
     </affected>
-    <reference ref_id="USN-1051-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-January/001235.html" source="VENDOR" />
+    <reference ref_id="USN-1051-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-January/001250.html" source="VENDOR" />
     <reference ref_id="CVE-2010-4267" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-4267" source="CVE" />
     <description>Sebastian Krahmer discovered that HPLIP incorrectly handled certain long SNMP responses. A remote attacker could send malicious SNMP replies to certain HPLIP tools and cause them to crash or possibly execute arbitrary code.</description>
     <oval_repository>

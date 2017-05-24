@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13913" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13913" version="22">
   <metadata>
     <title>USN-742-1 -- jasper vulnerabilities</title>
     <affected family="unix">
@@ -8,7 +8,7 @@
       <platform>Ubuntu 8.10</platform>
       <product>jasper</product>
     </affected>
-    <reference ref_id="USN-742-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-March/000866.html" source="VENDOR" />
+    <reference ref_id="USN-742-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-March/000872.html" source="VENDOR" />
     <reference ref_id="CVE-2008-3520" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-3520" source="CVE" />
     <reference ref_id="CVE-2008-3521" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-3521" source="CVE" />
     <reference ref_id="CVE-2008-3522" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-3522" source="CVE" />

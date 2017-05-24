@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:12941" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:12941" version="22">
   <metadata>
     <title>USN-944-1 -- glibc, eglibc vulnerabilities</title>
     <affected family="unix">
@@ -10,7 +10,7 @@
       <product>glibc</product>
       <product>eglibc</product>
     </affected>
-    <reference ref_id="USN-944-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-May/001096.html" source="VENDOR" />
+    <reference ref_id="USN-944-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-May/001111.html" source="VENDOR" />
     <reference ref_id="CVE-2008-1391" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-1391" source="CVE" />
     <reference ref_id="CVE-2010-0296" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0296" source="CVE" />
     <reference ref_id="CVE-2010-0830" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0830" source="CVE" />

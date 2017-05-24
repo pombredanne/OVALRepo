@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13401" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13401" version="22">
   <metadata>
     <title>USN-725-1 -- kdepim vulnerability</title>
     <affected family="unix">
@@ -8,7 +8,7 @@
       <platform>Ubuntu 8.10</platform>
       <product>kdepim</product>
     </affected>
-    <reference ref_id="USN-725-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-February/000845.html" source="VENDOR" />
+    <reference ref_id="USN-725-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-February/000851.html" source="VENDOR" />
     <description>It was discovered that Kmail did not adequately prevent execution of arbitrary code when a user clicked on a URL to an executable within an HTML mail. If a user clicked on a malicious URL and chose to execute the file, a remote attacker could execute arbitrary code with user privileges. This update changes KMail�s behavior to instead launch a helper program to view the file if the user chooses to execute such a link.</description>
     <oval_repository>
       <dates>

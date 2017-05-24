@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13422" version="10">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13422" version="24">
   <metadata>
     <title>USN-1020-1 -- thunderbird, thunderbird-locales vulnerabilities</title>
     <affected family="unix">
@@ -7,7 +7,7 @@
       <product>thunderbird</product>
       <product>thunderbird-locales</product>
     </affected>
-    <reference ref_id="USN-1020-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-December/001213.html" source="VENDOR" />
+    <reference ref_id="USN-1020-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-December/001228.html" source="VENDOR" />
     <reference ref_id="CVE-2010-3776" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-3776" source="CVE" />
     <reference ref_id="CVE-2010-3777" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-3777" source="CVE" />
     <reference ref_id="CVE-2010-3778" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-3778" source="CVE" />

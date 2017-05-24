@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13780" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13780" version="22">
   <metadata>
     <title>USN-810-2 -- nspr update</title>
     <affected family="unix">
@@ -7,7 +7,7 @@
       <platform>Ubuntu 9.04</platform>
       <product>nspr</product>
     </affected>
-    <reference ref_id="USN-810-2" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-August/000942.html" source="VENDOR" />
+    <reference ref_id="USN-810-2" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-August/000948.html" source="VENDOR" />
     <reference ref_id="CVE-2009-2404" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-2404" source="CVE" />
     <reference ref_id="CVE-2009-2408" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-2408" source="CVE" />
     <reference ref_id="CVE-2009-2409" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-2409" source="CVE" />

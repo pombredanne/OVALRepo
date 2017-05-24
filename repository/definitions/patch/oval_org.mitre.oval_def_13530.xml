@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13530" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13530" version="22">
   <metadata>
     <title>USN-949-1 -- openoffice.org vulnerability</title>
     <affected family="unix">
@@ -8,7 +8,7 @@
       <platform>Ubuntu 9.10</platform>
       <product>openoffice.org</product>
     </affected>
-    <reference ref_id="USN-949-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-June/001102.html" source="VENDOR" />
+    <reference ref_id="USN-949-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-June/001117.html" source="VENDOR" />
     <reference ref_id="CVE-2010-0395" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0395" source="CVE" />
     <description>Marc Schoenefeld discovered that OpenOffice.org would run document macros from the macro browser, even when macros were disabled. If a user were tricked into opening a specially crafted document and examining a macro, a remote attacker could execute arbitrary code with user privileges.</description>
     <oval_repository>

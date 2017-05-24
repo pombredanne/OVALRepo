@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13497" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13497" version="23">
   <metadata>
     <title>USN-888-1 -- bind9 vulnerabilities</title>
     <affected family="unix">
@@ -9,7 +9,7 @@
       <platform>Ubuntu 9.04</platform>
       <product>bind9</product>
     </affected>
-    <reference ref_id="USN-888-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-January/001031.html" source="VENDOR" />
+    <reference ref_id="USN-888-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-January/001046.html" source="VENDOR" />
     <reference ref_id="CVE-2010-0097" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0097" source="CVE" />
     <reference ref_id="CVE-2009-4022" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-4022" source="CVE" />
     <reference ref_id="CVE-2010-0290" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0290" source="CVE" />

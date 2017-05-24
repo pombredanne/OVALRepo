@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13471" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13471" version="22">
   <metadata>
     <title>USN-966-1 -- linux, linux-{source-2.6.15,ec2,mvl-dove,ti-omap} vulnerabilities</title>
     <affected family="unix">
@@ -13,7 +13,7 @@
       <product>linux-mvl-dove</product>
       <product>linux-ti-omap</product>
     </affected>
-    <reference ref_id="USN-966-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-August/001134.html" source="VENDOR" />
+    <reference ref_id="USN-966-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-August/001149.html" source="VENDOR" />
     <reference ref_id="CVE-2008-7256" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-7256" source="CVE" />
     <reference ref_id="CVE-2010-1643" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-1643" source="CVE" />
     <reference ref_id="CVE-2010-1173" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-1173" source="CVE" />

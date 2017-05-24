@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13109" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13109" version="22">
   <metadata>
     <title>USN-1008-1 -- libvirt vulnerabilities</title>
     <affected family="unix">
@@ -8,7 +8,7 @@
       <platform>Ubuntu 9.10</platform>
       <product>libvirt</product>
     </affected>
-    <reference ref_id="USN-1008-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-October/001185.html" source="VENDOR" />
+    <reference ref_id="USN-1008-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-October/001200.html" source="VENDOR" />
     <reference ref_id="CVE-2010-2237" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-2237" source="CVE" />
     <reference ref_id="CVE-2010-2238" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-2238" source="CVE" />
     <reference ref_id="CVE-2010-2239" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-2239" source="CVE" />

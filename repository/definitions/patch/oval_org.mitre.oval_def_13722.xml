@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13722" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13722" version="22">
   <metadata>
     <title>USN-1100-1 -- openldap, openldap2.3 vulnerabilities</title>
     <affected family="unix">
@@ -9,7 +9,7 @@
       <product>openldap</product>
       <product>openldap2.3</product>
     </affected>
-    <reference ref_id="USN-1100-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-March/001293.html" source="VENDOR" />
+    <reference ref_id="USN-1100-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-March/001308.html" source="VENDOR" />
     <reference ref_id="CVE-2011-1024" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1024" source="CVE" />
     <reference ref_id="CVE-2011-1025" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1025" source="CVE" />
     <reference ref_id="CVE-2011-1081" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1081" source="CVE" />

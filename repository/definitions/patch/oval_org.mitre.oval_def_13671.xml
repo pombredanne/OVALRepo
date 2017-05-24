@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13671" version="7">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13671" version="22">
   <metadata>
     <title>USN-900-1 -- ruby1.9 vulnerabilities</title>
     <affected family="unix">
@@ -7,7 +7,7 @@
       <platform>Ubuntu 9.04</platform>
       <product>ruby1.9</product>
     </affected>
-    <reference ref_id="USN-900-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-February/001045.html" source="VENDOR" />
+    <reference ref_id="USN-900-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-February/001060.html" source="VENDOR" />
     <reference ref_id="CVE-2009-4124" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-4124" source="CVE" />
     <reference ref_id="CVE-2009-4492" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-4492" source="CVE" />
     <reference ref_id="CVE-2009-1904" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-1904" source="CVE" />

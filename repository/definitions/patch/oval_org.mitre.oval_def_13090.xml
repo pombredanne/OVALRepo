@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13090" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13090" version="22">
   <metadata>
     <title>USN-890-6 -- cmake vulnerabilities</title>
     <affected family="unix">
@@ -7,7 +7,7 @@
       <platform>Ubuntu 9.04</platform>
       <product>cmake</product>
     </affected>
-    <reference ref_id="USN-890-6" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-April/001081.html" source="VENDOR" />
+    <reference ref_id="USN-890-6" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-April/001096.html" source="VENDOR" />
     <reference ref_id="CVE-2009-2625" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-2625" source="CVE" />
     <reference ref_id="CVE-2009-3720" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-3720" source="CVE" />
     <reference ref_id="CVE-2009-3560" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-3560" source="CVE" />

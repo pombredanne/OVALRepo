@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13130" version="7">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13130" version="21">
   <metadata>
     <title>USN-732-1 -- dash vulnerability</title>
     <affected family="unix">
@@ -6,7 +6,7 @@
       <platform>Ubuntu 8.04</platform>
       <product>dash</product>
     </affected>
-    <reference ref_id="USN-732-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-March/000857.html" source="VENDOR" />
+    <reference ref_id="USN-732-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-March/000863.html" source="VENDOR" />
     <reference ref_id="CVE-2009-0854" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-0854" source="CVE" />
     <description>Wolfgang M. Reimer discovered that dash, when invoked as a login shell, would source .profile files from the current directory. Local users may be able to bypass security restrictions and gain root privileges by placing specially crafted .profile files where they might get sourced by other dash users.</description>
     <oval_repository>

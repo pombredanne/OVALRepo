@@ -101,7 +101,7 @@ def get_definition_metadata(filepath):
         'platforms': { platform.text for platform in root.iterfind('./oval-def:metadata/oval-def:affected/oval-def:platform', namespaces=ns_map) },
         'products': { product.text for product in root.iterfind('./oval-def:metadata/oval-def:affected/oval-def:product', namespaces=ns_map) },
         'revisions': revisions,
-        'reference_ids': { reference.get('ref_id') for reference in root.iterfind('./oval-def:metadata/oval-def:reference', namespaces=ns_map) },
+        'reference_ids': [ reference.get('ref_id') for reference in root.iterfind('./oval-def:metadata/oval-def:reference', namespaces=ns_map) ],
         'last_modified': last_modified_date,
         'path' : filepath
     }
@@ -338,7 +338,7 @@ class OvalGenerator:
     supported_oval_elements = ('definition','test','object','state','variable')
     product_name = 'CIS OVAL Repository'
     generator_version = '0.1'
-    oval_schema_version = '5.11.1'
+    oval_schema_version = '5.11.2'
 
     def __init__(self, message_method = False, tmp_directory = './'):
         """ constructor, set defaults for instances """

@@ -1,11 +1,11 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13881" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13881" version="22">
   <metadata>
     <title>USN-832-1 -- freeradius vulnerability</title>
     <affected family="unix">
       <platform>Ubuntu 8.04</platform>
       <product>freeradius</product>
     </affected>
-    <reference ref_id="USN-832-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-September/000963.html" source="VENDOR" />
+    <reference ref_id="USN-832-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-September/000975.html" source="VENDOR" />
     <reference ref_id="CVE-2009-3111" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-3111" source="CVE" />
     <description>It was discovered that FreeRADIUS did not correctly handle certain malformed attributes. A remote attacker could exploit this flaw and cause the FreeRADIUS server to crash, resulting in a denial of service.</description>
     <oval_repository>

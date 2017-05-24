@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:12938" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:12938" version="22">
   <metadata>
     <title>USN-875-1 -- redhat-cluster, redhat-cluster-suite vulnerabilities</title>
     <affected family="unix">
@@ -8,7 +8,7 @@
       <product>redhat-cluster</product>
       <product>redhat-cluster-suite</product>
     </affected>
-    <reference ref_id="USN-875-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-December/001015.html" source="VENDOR" />
+    <reference ref_id="USN-875-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-December/001030.html" source="VENDOR" />
     <reference ref_id="CVE-2008-4192" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-4192" source="CVE" />
     <reference ref_id="CVE-2008-4579" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-4579" source="CVE" />
     <reference ref_id="CVE-2008-4580" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-4580" source="CVE" />

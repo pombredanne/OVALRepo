@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:12607" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:12607" version="23">
   <metadata>
     <title>USN-882-1 -- php5 vulnerabilities</title>
     <affected family="unix">
@@ -9,7 +9,7 @@
       <platform>Ubuntu 9.04</platform>
       <product>php5</product>
     </affected>
-    <reference ref_id="USN-882-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-January/001024.html" source="VENDOR" />
+    <reference ref_id="USN-882-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-January/001039.html" source="VENDOR" />
     <reference ref_id="CVE-2009-2626" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-2626" source="CVE" />
     <reference ref_id="CVE-2009-4142" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-4142" source="CVE" />
     <reference ref_id="CVE-2009-4143" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-4143" source="CVE" />

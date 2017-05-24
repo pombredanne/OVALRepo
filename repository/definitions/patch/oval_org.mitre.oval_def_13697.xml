@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13697" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13697" version="22">
   <metadata>
     <title>USN-1062-1 -- krb5 vulnerabilities</title>
     <affected family="unix">
@@ -8,7 +8,7 @@
       <platform>Ubuntu 10.04</platform>
       <product>krb5</product>
     </affected>
-    <reference ref_id="USN-1062-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-February/001247.html" source="VENDOR" />
+    <reference ref_id="USN-1062-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-February/001262.html" source="VENDOR" />
     <reference ref_id="CVE-2010-4022" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-4022" source="CVE" />
     <reference ref_id="CVE-2011-0281" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0281" source="CVE" />
     <reference ref_id="CVE-2011-0282" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0282" source="CVE" />

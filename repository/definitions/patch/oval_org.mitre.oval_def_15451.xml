@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15451" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15451" version="22">
   <metadata>
     <title>USN-1353-1 -- Xulrunnner vulnerabilities</title>
     <affected family="unix">
@@ -6,7 +6,7 @@
       <platform>Ubuntu 10.04</platform>
       <product>Xulrunnner</product>
     </affected>
-    <reference ref_id="USN-1353-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2012-February/001579.html" source="VENDOR" />
+    <reference ref_id="USN-1353-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2012-February/001594.html" source="VENDOR" />
     <reference ref_id="CVE-2012-0442" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0442" source="CVE" />
     <reference ref_id="CVE-2011-3659" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-3659" source="CVE" />
     <reference ref_id="CVE-2012-0444" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0444" source="CVE" />

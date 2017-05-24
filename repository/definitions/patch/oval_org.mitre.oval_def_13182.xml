@@ -1,11 +1,11 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13182" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13182" version="22">
   <metadata>
     <title>USN-927-2 -- nss regression</title>
     <affected family="unix">
       <platform>Ubuntu 9.10</platform>
       <product>nss</product>
     </affected>
-    <reference ref_id="USN-927-2" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-April/001078.html" source="VENDOR" />
+    <reference ref_id="USN-927-2" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-April/001093.html" source="VENDOR" />
     <description>USN-927-1 fixed vulnerabilities in NSS. Upstream NSS 3.12.6 added an additional checksum verification on libnssdbm3.so, but the Ubuntu packaging did not create this checksum. As a result, Firefox could not initialize the security component when the NSS Internal FIPS PKCS #11 Module was enabled. This update fixes the problem. We apologize for the inconvenience. Original advisory details: Marsh Ray and Steve Dispensa discovered a flaw in the TLS and SSLv3 protocols. If an attacker could perform a man in the middle attack at the start of a TLS connection, the attacker could inject arbitrary content at the beginning of the user�s session. This update adds support for the new new renegotiation extension and will use it when the server supports it.</description>
     <oval_repository>
       <dates>

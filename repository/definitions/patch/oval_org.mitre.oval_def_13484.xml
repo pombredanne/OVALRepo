@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13484" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13484" version="22">
   <metadata>
     <title>USN-984-1 -- lftp vulnerability</title>
     <affected family="unix">
@@ -8,7 +8,7 @@
       <platform>Ubuntu 9.10</platform>
       <product>lftp</product>
     </affected>
-    <reference ref_id="USN-984-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-September/001152.html" source="VENDOR" />
+    <reference ref_id="USN-984-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-September/001167.html" source="VENDOR" />
     <reference ref_id="CVE-2010-2251" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-2251" source="CVE" />
     <description>It was discovered that LFTP incorrectly filtered filenames suggested by Content-Disposition headers. If a user or automated system were tricked into downloading a file from a malicious site, a remote attacker could create the file with an arbitrary name, such as a dotfile, and possibly run arbitrary code.</description>
     <oval_repository>

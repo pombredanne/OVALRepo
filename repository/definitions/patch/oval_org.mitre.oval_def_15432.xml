@@ -1,11 +1,11 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15432" version="7">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15432" version="22">
   <metadata>
     <title>USN-1322-1 -- Linux kernel vulnerabilities</title>
     <affected family="unix">
       <platform>Ubuntu 11.10</platform>
       <product>Linux</product>
     </affected>
-    <reference ref_id="USN-1322-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2012-January/001543.html" source="VENDOR" />
+    <reference ref_id="USN-1322-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2012-January/001558.html" source="VENDOR" />
     <reference ref_id="CVE-2011-4081" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4081" source="CVE" />
     <description>linux: Linux kernel Several security issues were fixed in the kernel.</description>
     <oval_repository>

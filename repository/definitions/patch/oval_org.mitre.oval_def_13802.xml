@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13802" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13802" version="22">
   <metadata>
     <title>USN-1097-1 -- tomcat6 vulnerabilities</title>
     <affected family="unix">
@@ -7,7 +7,7 @@
       <platform>Ubuntu 10.04</platform>
       <product>tomcat6</product>
     </affected>
-    <reference ref_id="USN-1097-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-March/001290.html" source="VENDOR" />
+    <reference ref_id="USN-1097-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-March/001305.html" source="VENDOR" />
     <reference ref_id="CVE-2010-3718" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-3718" source="CVE" />
     <reference ref_id="CVE-2011-0013" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0013" source="CVE" />
     <reference ref_id="CVE-2011-0534" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0534" source="CVE" />

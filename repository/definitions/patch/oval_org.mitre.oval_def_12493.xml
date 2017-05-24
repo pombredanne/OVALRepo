@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:12493" version="7">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:12493" version="21">
   <metadata>
     <title>USN-1024-1 -- openjdk-6 vulnerability</title>
     <affected family="unix">
@@ -8,7 +8,7 @@
       <platform>Ubuntu 10.04</platform>
       <product>openjdk-6</product>
     </affected>
-    <reference ref_id="USN-1024-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-November/001205.html" source="VENDOR" />
+    <reference ref_id="USN-1024-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-November/001220.html" source="VENDOR" />
     <reference ref_id="CVE-2010-3860" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-3860" source="CVE" />
     <description>It was discovered that certain system property information was being leaked, which could allow an attacker to obtain sensitive information.</description>
     <oval_repository>

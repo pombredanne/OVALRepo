@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13567" version="10">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13567" version="25">
   <metadata>
     <title>USN-930-2 -- apturl, epiphany-browser, gecko-sharp, gnome-python-extras, liferea, rhythmbox, totem, ubufox, yelp update</title>
     <affected family="unix">
@@ -13,7 +13,7 @@
       <product>ubufox</product>
       <product>yelp</product>
     </affected>
-    <reference ref_id="USN-930-2" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-June/001113.html" source="VENDOR" />
+    <reference ref_id="USN-930-2" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-June/001128.html" source="VENDOR" />
     <reference ref_id="CVE-2010-1121" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-1121" source="CVE" />
     <reference ref_id="CVE-2010-1200" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-1200" source="CVE" />
     <reference ref_id="CVE-2010-1201" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-1201" source="CVE" />

@@ -1,11 +1,11 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13167" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13167" version="22">
   <metadata>
     <title>USN-947-2 -- linux regression</title>
     <affected family="unix">
       <platform>Ubuntu 10.04</platform>
       <product>linux</product>
     </affected>
-    <reference ref_id="USN-947-2" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-June/001101.html" source="VENDOR" />
+    <reference ref_id="USN-947-2" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-June/001116.html" source="VENDOR" />
     <reference ref_id="CVE-2010-0419" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0419" source="CVE" />
     <reference ref_id="CVE-2009-4271" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-4271" source="CVE" />
     <reference ref_id="CVE-2009-4537" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-4537" source="CVE" />

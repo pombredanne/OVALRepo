@@ -1,11 +1,11 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15280" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15280" version="22">
   <metadata>
     <title>USN-1329-1 -- Linux kernel (OMAP4) vulnerability</title>
     <affected family="unix">
       <platform>Ubuntu 11.04</platform>
       <product>Linux</product>
     </affected>
-    <reference ref_id="USN-1329-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2012-January/001550.html" source="VENDOR" />
+    <reference ref_id="USN-1329-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2012-January/001565.html" source="VENDOR" />
     <reference ref_id="CVE-2011-3353" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-3353" source="CVE" />
     <description>linux-ti-omap4: Linux kernel for OMAP4 The system could be made to crash under certain conditions.</description>
     <oval_repository>

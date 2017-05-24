@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13788" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13788" version="22">
   <metadata>
     <title>USN-804-1 -- pulseaudio vulnerability</title>
     <affected family="unix">
@@ -7,7 +7,7 @@
       <platform>Ubuntu 9.04</platform>
       <product>pulseaudio</product>
     </affected>
-    <reference ref_id="USN-804-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-July/000935.html" source="VENDOR" />
+    <reference ref_id="USN-804-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-July/000941.html" source="VENDOR" />
     <reference ref_id="CVE-2009-1894" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-1894" source="CVE" />
     <description>Tavis Ormandy and Yorick Koster discovered that PulseAudio did not safely re-execute itself. A local attacker could exploit this to gain root privileges.</description>
     <oval_repository>

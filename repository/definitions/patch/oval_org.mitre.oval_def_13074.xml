@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13074" version="7">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13074" version="21">
   <metadata>
     <title>USN-938-1 -- kdenetwork vulnerability</title>
     <affected family="unix">
@@ -7,7 +7,7 @@
       <platform>Ubuntu 9.10</platform>
       <product>kdenetwork</product>
     </affected>
-    <reference ref_id="USN-938-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-May/001091.html" source="VENDOR" />
+    <reference ref_id="USN-938-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-May/001106.html" source="VENDOR" />
     <reference ref_id="CVE-2010-1000" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-1000" source="CVE" />
     <reference ref_id="CVE-2010-1511" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-1511" source="CVE" />
     <description>It was discovered that KGet did not properly perform input validation when processing metalink files. If a user were tricked into opening a crafted metalink file, a remote attacker could overwrite files via directory traversal, which could eventually lead to arbitrary code execution.</description>

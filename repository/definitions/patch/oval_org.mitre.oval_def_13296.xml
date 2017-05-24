@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13296" version="7">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13296" version="23">
   <metadata>
     <title>USN-860-1 -- apache2 vulnerabilities</title>
     <affected family="unix">
@@ -9,7 +9,7 @@
       <platform>Ubuntu 9.04</platform>
       <product>apache2</product>
     </affected>
-    <reference ref_id="USN-860-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-November/001001.html" source="VENDOR" />
+    <reference ref_id="USN-860-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-November/001016.html" source="VENDOR" />
     <reference ref_id="CVE-2009-3555" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-3555" source="CVE" />
     <reference ref_id="CVE-2009-3094" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-3094" source="CVE" />
     <reference ref_id="CVE-2009-3095" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-3095" source="CVE" />

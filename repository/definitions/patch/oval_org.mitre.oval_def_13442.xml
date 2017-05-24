@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13442" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13442" version="22">
   <metadata>
     <title>USN-1005-1 -- poppler vulnerabilities</title>
     <affected family="unix">
@@ -10,7 +10,7 @@
       <platform>Ubuntu 10.04</platform>
       <product>poppler</product>
     </affected>
-    <reference ref_id="USN-1005-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-October/001180.html" source="VENDOR" />
+    <reference ref_id="USN-1005-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-October/001195.html" source="VENDOR" />
     <reference ref_id="CVE-2010-3702" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-3702" source="CVE" />
     <reference ref_id="CVE-2010-3703" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-3703" source="CVE" />
     <reference ref_id="CVE-2010-3704" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-3704" source="CVE" />

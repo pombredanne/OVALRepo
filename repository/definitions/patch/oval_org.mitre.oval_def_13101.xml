@@ -1,11 +1,11 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13101" version="6">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13101" version="20">
   <metadata>
     <title>USN-1036-1 -- cups update</title>
     <affected family="unix">
       <platform>Ubuntu 10.10</platform>
       <product>cups</product>
     </affected>
-    <reference ref_id="USN-1036-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-January/001220.html" source="VENDOR" />
+    <reference ref_id="USN-1036-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-January/001235.html" source="VENDOR" />
     <description>Under certain circumstances, CUPS could start before its AppArmor profile was loaded and therefore run unconfined. This update ensures the AppArmor profile is loaded before CUPS starts.</description>
     <oval_repository>
       <dates>

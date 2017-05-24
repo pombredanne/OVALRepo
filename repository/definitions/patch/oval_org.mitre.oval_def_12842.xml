@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:12842" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:12842" version="22">
   <metadata>
     <title>USN-1073-1 -- linux, linux-ec2 vulnerabilities</title>
     <affected family="unix">
@@ -6,7 +6,7 @@
       <product>linux</product>
       <product>linux-ec2</product>
     </affected>
-    <reference ref_id="USN-1073-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-February/001257.html" source="VENDOR" />
+    <reference ref_id="USN-1073-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-February/001272.html" source="VENDOR" />
     <reference ref_id="CVE-2010-0435" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0435" source="CVE" />
     <reference ref_id="CVE-2010-3448" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-3448" source="CVE" />
     <reference ref_id="CVE-2010-3698" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-3698" source="CVE" />

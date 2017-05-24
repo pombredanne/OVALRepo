@@ -1,11 +1,11 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15251" version="7">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15251" version="21">
   <metadata>
     <title>USN-1279-1 -- Linux (Natty backport) vulnerabilities</title>
     <affected family="unix">
       <platform>Ubuntu 10.04</platform>
       <product>Linux</product>
     </affected>
-    <reference ref_id="USN-1279-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-November/001498.html" source="VENDOR" />
+    <reference ref_id="USN-1279-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-November/001513.html" source="VENDOR" />
     <reference ref_id="CVE-2011-2183" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2183" source="CVE" />
     <reference ref_id="CVE-2011-2491" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2491" source="CVE" />
     <reference ref_id="CVE-2011-2494" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2494" source="CVE" />

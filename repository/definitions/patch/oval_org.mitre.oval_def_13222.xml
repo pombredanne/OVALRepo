@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13222" version="7">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13222" version="21">
   <metadata>
     <title>USN-885-1 -- libthai vulnerability</title>
     <affected family="unix">
@@ -8,7 +8,7 @@
       <platform>Ubuntu 9.04</platform>
       <product>libthai</product>
     </affected>
-    <reference ref_id="USN-885-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-January/001029.html" source="VENDOR" />
+    <reference ref_id="USN-885-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-January/001042.html" source="VENDOR" />
     <reference ref_id="CVE-2009-1757" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-1757" source="CVE" />
     <reference ref_id="CVE-2010-0012" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0012" source="CVE" />
     <description>Tim Starling discovered that LibThai did not correctly handle long strings. A remote attacker could use specially-formed strings to execute arbitrary code with the user�s privileges.</description>

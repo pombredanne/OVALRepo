@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13867" version="7">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13867" version="22">
   <metadata>
     <title>USN-1110-1 -- kde4libs vulnerabilities</title>
     <affected family="unix">
@@ -7,7 +7,7 @@
       <platform>Ubuntu 10.04</platform>
       <product>kde4libs</product>
     </affected>
-    <reference ref_id="USN-1110-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-April/001304.html" source="VENDOR" />
+    <reference ref_id="USN-1110-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-April/001319.html" source="VENDOR" />
     <reference ref_id="CVE-2011-1094" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1094" source="CVE" />
     <reference ref_id="CVE-2011-1168" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1168" source="CVE" />
     <description>kde4libs: KDE 4 core applications An attacker could send crafted input to Konqueror to view sensitive information.</description>

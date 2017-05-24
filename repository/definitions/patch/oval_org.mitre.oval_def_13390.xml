@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13390" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13390" version="24">
   <metadata>
     <title>USN-1028-1 -- imagemagick vulnerability</title>
     <affected family="unix">
@@ -8,7 +8,7 @@
       <platform>Ubuntu 10.04</platform>
       <product>imagemagick</product>
     </affected>
-    <reference ref_id="USN-1028-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-December/001209.html" source="VENDOR" />
+    <reference ref_id="USN-1028-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-December/001224.html" source="VENDOR" />
     <reference ref_id="CVE-2010-4167" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-4167" source="CVE" />
     <description>It was discovered that ImageMagick would search for configuration files in the current directory. If a user were tricked into opening or processing an image in an arbitrary directory, a local attacker could execute arbitrary code with the user�s privileges.</description>
     <oval_repository>

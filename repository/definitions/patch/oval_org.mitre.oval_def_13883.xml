@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13883" version="7">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13883" version="21">
   <metadata>
     <title>USN-813-1 -- apr vulnerability</title>
     <affected family="unix">
@@ -7,7 +7,7 @@
       <platform>Ubuntu 9.04</platform>
       <product>apr</product>
     </affected>
-    <reference ref_id="USN-813-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-August/000945.html" source="VENDOR" />
+    <reference ref_id="USN-813-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-August/000951.html" source="VENDOR" />
     <reference ref_id="CVE-2009-2412" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-2412" source="CVE" />
     <description>Matt Lewis discovered that apr did not properly sanitize its input when allocating memory. If an application using apr processed crafted input, a remote attacker could cause a denial of service or potentially execute arbitrary code as the user invoking the application.</description>
     <oval_repository>

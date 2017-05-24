@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13810" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13810" version="22">
   <metadata>
     <title>USN-717-1 -- firefox-3.0, xulrunner-1.9 vulnerabilities</title>
     <affected family="unix">
@@ -7,7 +7,7 @@
       <product>firefox-3.0</product>
       <product>xulrunner-1.9</product>
     </affected>
-    <reference ref_id="USN-717-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-February/000837.html" source="VENDOR" />
+    <reference ref_id="USN-717-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-February/000843.html" source="VENDOR" />
     <reference ref_id="CVE-2009-0352" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-0352" source="CVE" />
     <reference ref_id="CVE-2009-0353" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-0353" source="CVE" />
     <reference ref_id="CVE-2009-0354" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-0354" source="CVE" />

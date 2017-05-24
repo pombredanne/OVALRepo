@@ -12,7 +12,7 @@ Available classes:
     - grouped_query: search the index for totals based on grouping
     - paged_query: search and return a page of results
     - other methods are used internally to build, maintain and interact with the index
-- ElementsIndex: methods to create, maintain and query an index of definitions metadata
+- ElementsIndex: methods to create, maintain and query an index of elements metadata
     - query: search the index for definitions metadata
     - grouped_query: search the index for totals based on grouping
     - paged_query: search and return a page of results
@@ -193,8 +193,9 @@ class SearchIndex:
             # get a new clean/empty index
             index = self.get_index(force_rebuild)
 
-            # get a high-performance writer as per: https://pythonhosted.org/Whoosh/batch.html
-            index_writer = index.writer(procs=4, multisegment=True)
+            # disabled high-performance writer (https://pythonhosted.org/Whoosh/batch.html), causing thread/lock issues
+            # index_writer = index.writer(procs=4, multisegment=True)
+            index_writer = index.writer()
 
             # index all documents
             documents = self.document_iterator()
@@ -231,7 +232,12 @@ class SearchIndex:
                 counter = counter + 1
                 self.status_spinner(counter, '{0} {1} index'.format(activity_description, self.index_name), self.item_label)
                 if 'deleted' in document and document['deleted']:
-                    index_writer.delete_by_term('oval_id', self.whoosh_escape(document['oval_id']))
+                    try:
+                        index_writer.delete_by_term('oval_id', self.whoosh_escape(document['oval_id']))
+                    except:
+                        self.message('debug', 'Something was marked as needing to be deleted but it wasnt in the index')
+                    #self.message('debug', 'Deleting from index:\n\t{0} '.format(self.whoosh_escape(document['oval_id'])))
+                    #index_writer.delete_by_term('oval_id', self.whoosh_escape(document['oval_id']))
                     #self.message('debug', 'Deleting from index:\n\t{0} '.format(self.whoosh_escape(document['oval_id'])))
                 else:
                     index_writer.add_document(**document)

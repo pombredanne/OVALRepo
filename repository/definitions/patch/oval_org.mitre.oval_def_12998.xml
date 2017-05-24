@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:12998" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:12998" version="23">
   <metadata>
     <title>USN-1014-1 -- pidgin vulnerabilities</title>
     <affected family="unix">
@@ -8,7 +8,7 @@
       <platform>Ubuntu 10.04</platform>
       <product>pidgin</product>
     </affected>
-    <reference ref_id="USN-1014-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-November/001196.html" source="VENDOR" />
+    <reference ref_id="USN-1014-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-November/001211.html" source="VENDOR" />
     <reference ref_id="CVE-2010-1624" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-1624" source="CVE" />
     <reference ref_id="CVE-2010-3711" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-3711" source="CVE" />
     <description>Pierre Nogu&amp;#232;s discovered that Pidgin incorrectly handled malformed SLP messages in the MSN protocol handler. A remote attacker could send a specially crafted message and cause Pidgin to crash, leading to a denial of service. This issue only affected Ubuntu 8.04 LTS, 9.10 and 10.04 LTS. Daniel Atallah discovered that Pidgin incorrectly handled the return code of the Base64 decoding function. A remote attacker could send a specially crafted message and cause Pidgin to crash, leading to a denial of service</description>

@@ -1,11 +1,11 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13949" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13949" version="22">
   <metadata>
     <title>USN-1119-1 -- linux-ti-omap4 vulnerabilities</title>
     <affected family="unix">
       <platform>Ubuntu 10.10</platform>
       <product>linux-ti-omap4</product>
     </affected>
-    <reference ref_id="USN-1119-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-April/001313.html" source="VENDOR" />
+    <reference ref_id="USN-1119-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-April/001328.html" source="VENDOR" />
     <reference ref_id="CVE-2010-3904" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-3904" source="CVE" />
     <reference ref_id="CVE-2010-3848" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-3848" source="CVE" />
     <reference ref_id="CVE-2010-3849" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-3849" source="CVE" />

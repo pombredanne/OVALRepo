@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13324" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13324" version="22">
   <metadata>
     <title>USN-992-1 -- avahi vulnerabilities</title>
     <affected family="unix">
@@ -8,7 +8,7 @@
       <platform>Ubuntu 9.10</platform>
       <product>avahi</product>
     </affected>
-    <reference ref_id="USN-992-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-September/001168.html" source="VENDOR" />
+    <reference ref_id="USN-992-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-September/001183.html" source="VENDOR" />
     <reference ref_id="CVE-2009-0758" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-0758" source="CVE" />
     <reference ref_id="CVE-2010-2244" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-2244" source="CVE" />
     <description>It was discovered that Avahi incorrectly handled certain mDNS query packets when the reflector feature is enabled, which is not the default configuration on Ubuntu. A remote attacker could send crafted mDNS queries and perform a denial of service on the server and on the network. This issue only affected Ubuntu 8.04 LTS and 9.04. It was discovered that Avahi incorrectly handled mDNS packets with corrupted checksums. A remote attacker could send crafted mDNS packets and cause Avahi to crash, resulting in a denial of service</description>

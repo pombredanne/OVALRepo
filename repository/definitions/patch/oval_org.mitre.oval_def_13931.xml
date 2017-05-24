@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13931" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13931" version="23">
   <metadata>
     <title>USN-799-1 -- dbus vulnerability</title>
     <affected family="unix">
@@ -8,7 +8,7 @@
       <platform>Ubuntu 8.10</platform>
       <product>dbus</product>
     </affected>
-    <reference ref_id="USN-799-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-July/000932.html" source="VENDOR" />
+    <reference ref_id="USN-799-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2009-July/000938.html" source="VENDOR" />
     <reference ref_id="CVE-2009-1189" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-1189" source="CVE" />
     <description>It was discovered that the D-Bus library did not correctly validate signatures. If a local user sent a specially crafted D-Bus key, they could spoof a valid signature and bypass security policies.</description>
     <oval_repository>

@@ -1,11 +1,11 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15518" version="5">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15518" version="19">
   <metadata>
     <title>USN-1407-1 -- Linux kernel vulnerabilities</title>
     <affected family="unix">
       <platform>Ubuntu 10.10</platform>
       <product>Linux</product>
     </affected>
-    <reference ref_id="USN-1407-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2012-March/001640.html" source="VENDOR" />
+    <reference ref_id="USN-1407-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2012-March/001655.html" source="VENDOR" />
     <description>linux: Linux kernel Several security issues were fixed in the kernel.</description>
     <oval_repository>
       <dates>

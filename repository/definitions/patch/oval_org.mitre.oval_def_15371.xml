@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15371" version="8">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15371" version="22">
   <metadata>
     <title>USN-1251-1 -- Firefox and Xulrunner vulnerabilities</title>
     <affected family="unix">
@@ -6,7 +6,7 @@
       <platform>Ubuntu 10.04</platform>
       <product>Firefox</product>
     </affected>
-    <reference ref_id="USN-1251-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-November/001476.html" source="VENDOR" />
+    <reference ref_id="USN-1251-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-November/001491.html" source="VENDOR" />
     <reference ref_id="CVE-2011-3004" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-3004" source="CVE" />
     <reference ref_id="CVE-2011-3647" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-3647" source="CVE" />
     <reference ref_id="CVE-2011-3648" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-3648" source="CVE" />

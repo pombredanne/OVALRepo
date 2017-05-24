@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13494" version="7">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13494" version="21">
   <metadata>
     <title>USN-1048-1 -- tomcat6 vulnerability</title>
     <affected family="unix">
@@ -7,7 +7,7 @@
       <platform>Ubuntu 10.04</platform>
       <product>tomcat6</product>
     </affected>
-    <reference ref_id="USN-1048-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-January/001234.html" source="VENDOR" />
+    <reference ref_id="USN-1048-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-January/001249.html" source="VENDOR" />
     <reference ref_id="CVE-2010-4172" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-4172" source="CVE" />
     <description>It was discovered that Tomcat did not properly escape certain parameters in the Manager application which could result in browsers becoming vulnerable to cross-site scripting attacks when processing the output. With cross-site scripting vulnerabilities, if a user were tricked into viewing server output during a crafted server request, a remote attacker could exploit this to modify the contents, or steal confidential data, within the same domain.</description>
     <oval_repository>

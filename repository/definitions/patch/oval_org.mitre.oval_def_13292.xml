@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13292" version="7">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:13292" version="21">
   <metadata>
     <title>USN-936-1 -- dvipng vulnerability</title>
     <affected family="unix">
@@ -7,7 +7,7 @@
       <platform>Ubuntu 9.10</platform>
       <product>dvipng</product>
     </affected>
-    <reference ref_id="USN-936-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-May/001090.html" source="VENDOR" />
+    <reference ref_id="USN-936-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2010-May/001105.html" source="VENDOR" />
     <reference ref_id="CVE-2010-0829" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0829" source="CVE" />
     <description>Dan Rosenberg discovered that dvipng incorrectly handled certain malformed dvi files. If a user or automated system were tricked into processing a specially crafted dvi file, an attacker could cause a denial of service via application crash, or possibly execute arbitrary code with the privileges of the user invoking the program.</description>
     <oval_repository>

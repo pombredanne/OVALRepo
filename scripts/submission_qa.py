@@ -44,7 +44,7 @@ NS_MAP = {
 
 def main():
     
-    SCHEMA_VERSION = '5.11.1'
+    SCHEMA_VERSION = '5.11.2'
 
     global verbose
     global debug
@@ -175,7 +175,11 @@ def main():
                     valid_metadata = 0
             else:
                 defstatus = def_status_change["Status"]
-                lscstatus = def_status_change["StatusChange"]["Status"]
+                lscstatus = "INVALID"
+                lsc = def_status_change["StatusChange"]
+                if (lsc and lsc["Status"]):
+                    lscstatus = def_status_change["StatusChange"]["Status"]
+
                 if (defstatus != lscstatus):
                     print("   ++++ Definition ID %s is NOT valid:" % def_id)
                     print("    - Last status change (%s) does not match definition status (%s)" % (lscstatus, defstatus))
@@ -199,9 +203,9 @@ def main():
         try:
             lib_xml.schema_validate(element_file, schema_path, True)
         except Exception as e:
-            #print('    Schema validation failed:\n\t{0}'.format(e.message))
+            print('    Schema validation failed:\n\t{0}'.format(e.message))
             #print("\n ### Offending file {0}".format(element_file))
-            print('    Schema validation failed:')
+            #print('    Schema validation failed:')
             print("\n ### Offending file {0}".format(element_file))
             return
 
@@ -215,8 +219,23 @@ def main():
     oval_id_map = {}
     affected_elements = set()
     update_elements = {}
+    non_repo_id_references = []
     for path in change_list:
         oval_element = lib_xml.load_standalone_element(path)
+
+        # get all *_refs attributes
+        attribute_id_refs = oval_element.xpath("//@*[name()='definition_ref' or name()='test_ref' or name()='object_ref' or name()='state_ref' or name()='var_ref']")
+        
+        # get filter, object_reference
+        text_id_refs = oval_element.xpath("//*[local-name()='filter' or local-name()='object_reference' or local-name()='var_ref']/text()", smart_strings=False)
+        
+        # combine, unique
+        #id_refs = []
+        id_refs = attribute_id_refs + text_id_refs
+        for id_ref in id_refs:
+            if not is_repository_id(id_ref):
+                non_repo_id_references.append(id_ref)
+
         update_elements[path] = oval_element
         #  5.1 If it's a definition, determine and set the minimum schema version
         ovalid = oval_element.get("id")
@@ -242,6 +261,7 @@ def main():
             if verbose:
                 print("    ---- Change submission ID from '{0}' to '{1}'".format(ovalid, new_id))
             oval_element.set("id", new_id)
+
             #      5.2.1 Set to a unique OVALID in the CIS namespace
             #      5.2.2 Update all references from the old OVALID
             oval_id_map[ovalid] = new_id
@@ -269,6 +289,19 @@ def main():
             oval_element.set("version", "1")
         #  5.4 Canonicalize all altered elements (if possible)
         
+    orphan_references = False
+    non_updated_non_repo_id_references = []
+    if len(non_repo_id_references) > 0:
+        print("\n --- Discovered {0} non-repo ID references:".format(len(non_repo_id_references)))
+        for nrir in non_repo_id_references:
+            if not nrir in oval_id_map:
+                print(nrir)
+                orphan_references = True
+
+    if orphan_references:
+        print("     >>>>> ERROR: Non-Repository OVAL IDs were found in referenced elements but not in the PRs change list.  Ensure any new OVAL ID references are also part of the pull request.  EXITING.")
+        return
+
     # Now that we know all the elements affected by an update we can increment their IDs once
     if len(affected_elements) > 0:
         if verbose:
@@ -304,12 +337,12 @@ def main():
             continue
         new_path = lib_repo.get_element_repository_path(oval_element)
 
-        print("Path (BEFORE) -- %s" % path)
+        #print("Path (BEFORE) -- %s" % path)
         path = path.replace("/", "\\")
-        print("Path (AFTER) --- %s" % path)
-        print("New Path (BEFORE) -- %s" % new_path)
+        #print("Path (AFTER) --- %s" % path)
+        #print("New Path (BEFORE) -- %s" % new_path)
         new_path = new_path.replace("/", "\\")
-        print("New Path (AFTER) --- %s" % new_path)
+        #print("New Path (AFTER) --- %s" % new_path)
         
         if verbose:
             print("## Writing {0}".format(new_path))
@@ -386,6 +419,7 @@ def normalize_ids(oval_element, oval_id_map):
         return oval_element
 
     ET.register_namespace("", "http://oval.mitre.org/XMLSchema/oval-definitions-5")
+    ET.register_namespace("oval-def", "http://oval.mitre.org/XMLSchema/oval-definitions-5")
     ET.register_namespace("oval", "http://oval.mitre.org/XMLSchema/oval-common-5")
     ET.register_namespace("xsi", "http://www.w3.org/2001/XMLSchema-instance")
 
@@ -395,8 +429,21 @@ def normalize_ids(oval_element, oval_id_map):
     for old_oval_id in oval_id_map:
         new_oval_id = oval_id_map[old_oval_id]
 
-        xml_string = xml_string.replace(old_oval_id, new_oval_id)
+        # this case covers when the id is referenced in an attribute, 
+        # such as <filepath datatype="string" var_ref="oval:com.submitter:var:12345"/>
+        old_oval_id1 = '="%s"' % old_oval_id
+        new_oval_id1 = '="%s"' % new_oval_id
+        
+        xml_string = xml_string.replace(old_oval_id1, new_oval_id1)
         #print("After -- ", xml_string)
+
+        # this case covers when the id is the value of an element, 
+        # such as <object_reference>oval:com.submitter:obj:67890</object_reference>
+        old_oval_id2 = '>%s</' % old_oval_id
+        new_oval_id2 = '>%s</' % new_oval_id
+        
+        xml_string = xml_string.replace(old_oval_id2, new_oval_id2)
+        
 
     return ET.fromstring(xml_string)
 

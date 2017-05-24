@@ -1,11 +1,11 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:14127" version="7">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:14127" version="21">
   <metadata>
     <title>USN-1122-2 -- thunderbird vulnerabilities</title>
     <affected family="unix">
       <platform>Ubuntu 11.04</platform>
       <product>thunderbird</product>
     </affected>
-    <reference ref_id="USN-1122-2" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-May/001326.html" source="VENDOR" />
+    <reference ref_id="USN-1122-2" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-May/001341.html" source="VENDOR" />
     <reference ref_id="CVE-2011-0081" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0081" source="CVE" />
     <reference ref_id="CVE-2011-0069" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0069" source="CVE" />
     <reference ref_id="CVE-2011-0070" ref_url="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0070" source="CVE" />

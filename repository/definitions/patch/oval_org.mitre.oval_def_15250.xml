@@ -1,4 +1,4 @@
-<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15250" version="6">
+<definition xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" class="patch" id="oval:org.mitre.oval:def:15250" version="20">
   <metadata>
     <title>USN-1200-1 -- Quassel vulnerability</title>
     <affected family="unix">
@@ -7,7 +7,7 @@
       <platform>Ubuntu 10.10</platform>
       <product>Quassel</product>
     </affected>
-    <reference ref_id="USN-1200-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-September/001410.html" source="VENDOR" />
+    <reference ref_id="USN-1200-1" ref_url="https://lists.ubuntu.com/archives/ubuntu-security-announce/2011-September/001425.html" source="VENDOR" />
     <description>quassel: KDE/Qt-based IRC client A remote attacker could send crafted input to Quassel and cause it to crash.</description>
     <oval_repository>
       <dates>
